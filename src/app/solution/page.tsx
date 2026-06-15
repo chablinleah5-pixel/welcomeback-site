@@ -37,7 +37,7 @@ export default function SolutionPage() {
       <PageHeader
         eyebrow="La solution"
         eyebrowColor="lavender"
-        title="Un parcours structuré, du premier signal au retour pleinement réussi."
+       title="Un cadre simple pour accompagner chaque retour"
         subtitle="Welcome Back accompagne chaque étape du retour après une absence longue : avant, pendant et après la reprise. Chaque acteur sait quoi faire, quand le faire et comment le faire."
         seed={4}
       />
