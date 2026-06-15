@@ -1,8 +1,12 @@
 import Hero from "@/components/Hero";
+import WhyAct from "@/components/WhyAct";
 import Problem from "@/components/Problem";
 import Stats from "@/components/Stats";
+import SimpleFramework from "@/components/SimpleFramework";
 import HowItWorks from "@/components/HowItWorks";
+import ForLeadershipTeaser from "@/components/ForLeadershipTeaser";
 import ForWhom from "@/components/ForWhom";
+import WhyWeExist from "@/components/WhyWeExist";
 import Container from "@/components/Container";
 import Eyebrow from "@/components/Eyebrow";
 import ContactForm from "@/components/ContactForm";
@@ -11,12 +15,16 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <WhyAct />
       <Problem />
       <Stats />
+      <SimpleFramework />
       <HowItWorks />
+      <ForLeadershipTeaser />
       <ForWhom />
+      <WhyWeExist />
 
-    <section id="contact" className="bg-white py-14 sm:py-20">
+      <section id="contact" className="bg-white py-14 sm:py-20">
         <Container>
           <div className="grid gap-12 lg:grid-cols-[1fr_1.3fr] lg:items-start">
             <div>
