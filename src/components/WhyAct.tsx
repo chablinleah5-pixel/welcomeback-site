@@ -28,10 +28,14 @@ export default function WhyAct() {
       <Container>
         <div className="max-w-2xl">
           <Eyebrow color="pink">Pourquoi agir</Eyebrow>
-          <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-            Pourquoi les retours après une absence longue méritent
-            d&apos;être anticipés
-          </h2>
+         <p className="mt-5 text-lg font-light leading-relaxed text-[var(--foreground)]/80">
+            Chaque retour après une absence longue est un moment à risque
+            pour l&apos;engagement, la performance et la rétention des
+            talents. Un retour mal accompagné peut générer de nouvelles
+            absences, des désorganisations d&apos;équipe et des coûts
+            significatifs pour l&apos;entreprise. Pourtant, ce moment
+            charnière est encore rarement préparé.
+          </p>
         </div>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-3">
