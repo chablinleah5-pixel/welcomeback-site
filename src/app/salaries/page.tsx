@@ -44,7 +44,7 @@ const BENEFITS = [
   },
   {
     icon: HeartHandshake,
-    title: "Une reprise non isolée",
+   title: "Une reprise accompagnée",
     text: "La personne n'est pas seule à gérer son retour : le manager et les RH disposent du même cadre, pour une reprise coordonnée.",
     color: "var(--color-lavender)",
   },
