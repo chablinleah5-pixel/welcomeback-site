@@ -2,13 +2,45 @@
 
 import { FormEvent, useState } from "react";
 
-export default function ContactForm() {
-  const [status, setStatus] = useState<"idle" | "submitted">("idle");
+const WEB3FORMS_ACCESS_KEY = "3617c832-06ec-4dc1-99b5-966d86076895";
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+export default function ContactForm() {
+  const [status, setStatus] = useState<"idle" | "submitting" | "submitted" | "error">("idle");
+
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    // Front-end only placeholder: integrate with your form backend / CRM here.
-    setStatus("submitted");
+    setStatus("submitting");
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    const payload: Record<string, string> = {
+      access_key: WEB3FORMS_ACCESS_KEY,
+      subject: "Nouvelle demande de démo — Welcome Back",
+      from_name: "Site Welcome Back",
+    };
+    formData.forEach((value, key) => {
+      payload[key] = value.toString();
+    });
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+      const result = await response.json();
+
+      if (result.success) {
+        setStatus("submitted");
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
   }
 
   if (status === "submitted") {
@@ -76,11 +108,19 @@ export default function ContactForm() {
         />
       </div>
 
+      {status === "error" && (
+        <p role="alert" className="mt-4 text-sm font-light text-red-600">
+          Une erreur est survenue lors de l&apos;envoi. Merci de réessayer ou
+          de nous écrire directement par email.
+        </p>
+      )}
+
       <button
         type="submit"
-        className="mt-8 inline-flex w-full items-center justify-center rounded-full bg-[var(--color-violet)] px-7 py-3.5 text-sm font-medium text-white transition-transform hover:scale-[1.01] sm:w-auto"
+        disabled={status === "submitting"}
+        className="mt-8 inline-flex w-full items-center justify-center rounded-full bg-[var(--color-violet)] px-7 py-3.5 text-sm font-medium text-white transition-transform hover:scale-[1.01] disabled:opacity-60 sm:w-auto"
       >
-        Envoyer ma demande de démo
+        {status === "submitting" ? "Envoi en cours..." : "Envoyer ma demande de démo"}
       </button>
     </form>
   );
