@@ -34,8 +34,8 @@ export default function Problem() {
             Congé maternité, arrêt maladie, congé parental, aidance,
             adoption : ces absences font partie de la vie de
             l&apos;entreprise, mais leur retour reste rarement structuré.
-            Résultat : de l&apos;incertitude pour tout le monde, et un risque
-            accru de nouvelle absence ou même de perte de talents.
+          Résultat : de l&apos;incertitude pour tout le monde, un risque
+            accru de nouvelle absence et même de perte de talents.
           </p>
         </div>
 
