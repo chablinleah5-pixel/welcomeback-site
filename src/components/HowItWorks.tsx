@@ -8,7 +8,7 @@ export default function HowItWorks() {
         <div className="max-w-2xl">
           <Eyebrow color="lavender">Comment ça fonctionne</Eyebrow>
           <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-           Un protocole testé pour préparer, accompagner et sécuriser les
+           Un protocole validé pour préparer, accompagner et sécuriser les
             retours après une absence longue.
           </h2>
         </div>
