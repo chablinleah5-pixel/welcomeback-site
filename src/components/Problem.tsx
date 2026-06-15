@@ -22,7 +22,7 @@ const PROBLEMS = [
 
 export default function Problem() {
   return (
-    <section className="py-24 sm:py-32">
+   <section className="py-14 sm:py-20">
       <Container>
         <div className="max-w-2xl">
           <Eyebrow color="pink">Le constat</Eyebrow>
