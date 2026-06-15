@@ -8,7 +8,7 @@ import Container from "@/components/Container";
 export const metadata: Metadata = {
   title: "Pour les salarié.e.s — Welcome Back",
   description:
-    "Welcome Back donne aux salarié.e.s de la visibilité, des repères et réduit le stress lié au retour après une absence longue : congé maternité, arrêt maladie, burn-out, congé parental.",
+  "Welcome Back donne aux salarié.e.s de la visibilité, des repères et réduit le stress lié au retour après une absence longue : congé maternité, arrêt maladie, congé parental.",
 };
 
 const BENEFITS = [
@@ -57,7 +57,7 @@ export default function SalariesPage() {
         eyebrow="Pour les salarié.e.s"
         eyebrowColor="green"
         title="Reprendre le travail avec des repères clairs."
-        subtitle="Après un congé maternité, un arrêt maladie, un burn-out ou un congé parental, revenir au travail s'accompagne souvent d'incertitudes. Welcome Back apporte de la clarté sur l'organisation du retour — sans rien imposer."
+        subtitle="Après un congé maternité, un arrêt maladie ou un congé parental, revenir au travail s'accompagne souvent d'incertitudes. Welcome Back apporte de la clarté sur l'organisation du retour, sans rien imposer."
         seed={31}
       />
 
@@ -73,7 +73,7 @@ export default function SalariesPage() {
               Welcome Back se concentre sur l&apos;organisation du retour : ce
               qui est prévu, par qui, et à quel moment. L&apos;objectif est de
               donner des repères clairs pour que la reprise se déroule dans de
-              bonnes conditions, à chacun son rythme.
+              bonnes conditions, chacun.e à son rythme.
             </p>
           </div>
         </Container>
