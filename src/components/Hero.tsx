@@ -7,19 +7,19 @@ const JOURNEY_STEPS = [
   {
     label: "Avant l'absence",
     suffix: "(quand celle-ci est planifiée)",
-    color: "var(--color-lavender)",
+    image: "/images/wave-yellow.png",
   },
   {
     label: "En amont de la reprise",
-    color: "var(--color-pink)",
+    image: "/images/wave-lavender.png",
   },
   {
     label: "Après le retour",
-    color: "var(--color-green)",
+    image: "/images/wave-green.png",
   },
   {
     label: "Sur le long terme",
-    color: "var(--color-yellow)",
+    image: "/images/wave-pink.png",
   },
 ];
 
@@ -61,23 +61,30 @@ export default function Hero() {
 
         {/* Visual: return journey snapshot */}
         <div className="relative mx-auto mt-20 max-w-5xl">
-          <div className="relative rounded-3xl border border-black/5 bg-white p-3 shadow-xl shadow-[var(--color-violet)]/5 sm:p-4">
+          <div className="relative overflow-hidden rounded-3xl border border-black/5 bg-white p-3 shadow-xl shadow-[var(--color-violet)]/5 sm:p-4">
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {JOURNEY_STEPS.map((step) => (
                 <div
                   key={step.label}
-                  className="rounded-2xl p-6"
-                  style={{ backgroundColor: `${step.color}40` }}
+                  className="relative isolate flex min-h-[150px] flex-col items-start justify-end overflow-hidden rounded-2xl bg-white"
                 >
-                  <p className="font-display text-sm font-semibold text-[var(--foreground)]">
-                    {step.label}
+                  <Image
+                    src={step.image}
+                    alt=""
+                    fill
+                    aria-hidden="true"
+                    className="pointer-events-none object-cover opacity-90"
+                  />
+                  <div className="relative w-full bg-white/85 p-4 backdrop-blur-sm">
+                    <p className="font-display text-sm font-semibold leading-snug text-[var(--foreground)]">
+                      {step.label}
+                    </p>
                     {step.suffix && (
-                      <span className="font-body text-xs font-light text-[var(--foreground)]/60">
-                        {" "}
+                      <p className="mt-1 font-body text-xs font-light leading-snug text-[var(--foreground)]/65">
                         {step.suffix}
-                      </span>
+                      </p>
                     )}
-                  </p>
+                  </div>
                 </div>
               ))}
             </div>
