@@ -5,7 +5,8 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Welcome Back — Structurer les retours après une absence longue",
-  "Welcome Back aide les RH, managers et salarié.e.s à structurer et automatiser l'accompagnement des retours après une absence longue : congé maternité, arrêt maladie, congé parental, aidance.",
+  description:
+    "Welcome Back aide les RH, managers et salarié.e.s à structurer et automatiser l'accompagnement des retours après une absence longue : congé maternité, arrêt maladie, congé parental, aidance.",
   keywords: [
     "retour au travail",
     "absence longue",
