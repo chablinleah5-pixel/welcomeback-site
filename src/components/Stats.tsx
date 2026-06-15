@@ -29,7 +29,7 @@ export default function Stats() {
       <Container>
         <div className="max-w-2xl">
           <h2 className="font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-            Pourquoi structurer le retour change tout.
+          Pourquoi structurer le retour ? Parce que :
           </h2>
         </div>
 
