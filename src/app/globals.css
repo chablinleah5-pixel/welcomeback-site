@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand palette */
+  --color-yellow: #FAEB5C;
+  --color-pink: #EBBBD8;
+  --color-green: #A2D0A7;
+  --color-violet: #4A3A8F;
+  --color-lavender: #C1CDEA;
+
+  --background: #FBFAF7;
+  --foreground: #2D2640;
+
+  /* Typography:
+     Display font is "Parisine Plus Std" — load via @font-face below or
+     swap the family name once font files are provided.
+     Body font is "Colaborate Light" — same approach. */
+  --font-display: "Parisine Plus Std", "Sora", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Colaborate Light", "Work Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Uncomment and provide font files to activate the brand typefaces:
+@font-face {
+  font-family: "Parisine Plus Std";
+  src: url("/fonts/ParisinePlusStd-Regular.woff2") format("woff2");
+  font-weight: 400 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Colaborate Light";
+  src: url("/fonts/Colaborate-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+}
+*/
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-yellow: var(--color-yellow);
+  --color-brand-pink: var(--color-pink);
+  --color-brand-green: var(--color-green);
+  --color-brand-violet: var(--color-violet);
+  --color-brand-lavender: var(--color-lavender);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-violet);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Decorative dot animation */
+@keyframes float-soft {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.dot-float {
+  animation: float-soft 7s ease-in-out infinite;
+}

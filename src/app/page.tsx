@@ -1,0 +1,39 @@
+import Hero from "@/components/Hero";
+import Problem from "@/components/Problem";
+import Stats from "@/components/Stats";
+import HowItWorks from "@/components/HowItWorks";
+import ForWhom from "@/components/ForWhom";
+import Container from "@/components/Container";
+import Eyebrow from "@/components/Eyebrow";
+import ContactForm from "@/components/ContactForm";
+
+export default function Home() {
+  return (
+    <>
+      <Hero />
+      <Problem />
+      <Stats />
+      <HowItWorks />
+      <ForWhom />
+
+      <section id="contact" className="bg-white py-24 sm:py-32">
+        <Container>
+          <div className="grid gap-12 lg:grid-cols-[1fr_1.3fr] lg:items-start">
+            <div>
+              <Eyebrow color="lavender">Contact</Eyebrow>
+              <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
+                Échangeons sur votre contexte.
+              </h2>
+              <p className="mt-4 max-w-md text-base font-light leading-relaxed text-[var(--foreground)]/70">
+                Décrivez-nous votre organisation et les types d&apos;absences
+                longues que vous accompagnez. Nous reviendrons vers vous
+                rapidement pour organiser une démonstration adaptée.
+              </p>
+            </div>
+            <ContactForm />
+          </div>
+        </Container>
+      </section>
+    </>
+  );
+}
