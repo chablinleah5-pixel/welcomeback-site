@@ -6,7 +6,7 @@ import CtaBanner from "@/components/CtaBanner";
 import Container from "@/components/Container";
 
 export const metadata: Metadata = {
-  title: "Pour les managers — Welcome Back",
+title: "Pour les managers - Welcome Back",
   description:
     "Welcome Back aide les managers à savoir quoi faire, disposer de scripts et guides concrets, et accompagner un retour après absence longue sans être intrusif.",
 };
