@@ -66,4 +66,24 @@ export default function ManagersPage() {
       <section className="bg-white py-20 sm:py-28">
         <Container>
           <div className="max-w-2xl">
-            <h2 className="font-display text-3xl font-bold tracking-tight text-[var(--foreground)]
+            <h2 className="font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
+              Un cadre, pas un script à suivre à la lettre.
+            </h2>
+            <p className="mt-4 text-base font-light leading-relaxed text-[var(--foreground)]/70">
+              Welcome Back ne remplace pas le jugement du manager : il lui
+              donne une base solide. Les guides et checklists structurent la
+              démarche, tout en laissant la place à l&apos;adaptation au
+              contexte de chaque personne et de chaque équipe.
+            </p>
+          </div>
+        </Container>
+      </section>
+
+      <CtaBanner
+        title="Donnez à vos managers les bons réflexes pour chaque retour."
+        subtitle="Découvrez en démonstration les guides et rituels proposés par Welcome Back."
+        seed={22}
+      />
+    </>
+  );
+}
