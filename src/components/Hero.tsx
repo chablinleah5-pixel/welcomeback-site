@@ -24,7 +24,7 @@ const JOURNEY_STEPS = [
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden pt-0 pb-24 sm:pb-32">
+    <section className="relative overflow-hidden pt-0 pb-14 sm:pb-20">
       <div className="relative w-full">
         <Image
           src="/images/banner.png"
