@@ -12,7 +12,7 @@ export default function CtaBanner({
   seed?: number;
 }) {
   return (
-    <section className="py-24 sm:py-32">
+    <section className="py-14 sm:py-20">
       <Container>
         <div className="relative overflow-hidden rounded-3xl bg-[var(--color-violet)] px-8 py-16 text-center sm:px-16">
           <Dots seed={seed} count={10} />
