@@ -3,7 +3,7 @@ import Eyebrow from "./Eyebrow";
 
 export default function HowItWorks() {
   return (
-    <section id="comment-ca-marche" className="py-14 sm:py-20">
+   <section id="comment-ca-marche" className="bg-white py-14 sm:py-20">
       <Container>
         <div className="max-w-2xl">
           <Eyebrow color="lavender">Comment ça fonctionne</Eyebrow>
