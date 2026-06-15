@@ -45,7 +45,7 @@ const BENEFITS = [
   {
     icon: Users,
     title: "Un cadre adapté à chaque absence",
-    text: "Congé maternité, arrêt maladie, burn-out, congé parental, aidance, adoption, congé supplémentaire de naissance : chaque parcours est ajusté au contexte.",
+    text: "Congé maternité, arrêt maladie, congé parental, aidance, adoption, congé supplémentaire de naissance : chaque parcours est ajusté au contexte.",
     color: "var(--color-lavender)",
   },
 ];
@@ -56,7 +56,7 @@ export default function RHPage() {
       <PageHeader
         eyebrow="Pour les RH"
         eyebrowColor="lavender"
-        title="Reprenez la main sur les retours après absence longue."
+      title="Reprenez la main sur les retours après une période d'absence longue."
         subtitle="Welcome Back donne aux équipes RH un cadre fiable pour piloter chaque retour : moins de charge mentale, plus de conformité, et une visibilité claire sur l'ensemble des dossiers en cours."
         seed={11}
       />
@@ -67,7 +67,7 @@ export default function RHPage() {
         <Container>
           <div className="max-w-2xl">
             <h2 className="font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-              Un dossier de retour, centralisé et structuré.
+              Un dossier de retour centralisé et structuré.
             </h2>
             <p className="mt-4 text-base font-light leading-relaxed text-[var(--foreground)]/70">
               Chaque retour devient un dossier suivi de bout en bout : type
