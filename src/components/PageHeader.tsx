@@ -16,7 +16,7 @@ export default function PageHeader({
   seed?: number;
 }) {
   return (
-    <section className="relative overflow-hidden py-20 sm:py-28">
+  <section className="relative overflow-hidden pt-20 pb-8 sm:pt-28 sm:pb-12">
       <Dots seed={seed} count={9} />
       <Container className="relative">
         <div className="max-w-2xl">
