@@ -25,7 +25,7 @@ const STATS = [
 
 export default function Stats() {
   return (
-    <section className="bg-white py-24 sm:py-32">
+    <section className="bg-white py-14 sm:py-20">
       <Container>
         <div className="max-w-2xl">
           <h2 className="font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
