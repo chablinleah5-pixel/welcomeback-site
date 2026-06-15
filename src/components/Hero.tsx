@@ -5,19 +5,21 @@ import Dots from "./Dots";
 
 const JOURNEY_STEPS = [
   {
-    label: "Avant l'absence (quand celle-ci est planifiée)",
-    desc: "Suivi et rappels pour sécuriser la reprise",
+    label: "Avant l'absence",
+    suffix: "(quand celle-ci est planifiée)",
     color: "var(--color-lavender)",
   },
   {
     label: "En amont de la reprise",
-    desc: "Préparation manager et RH",
     color: "var(--color-pink)",
   },
   {
     label: "Après le retour",
-    desc: "Rappels, guides, checklists, trames, suivi tripartite (RH, manager, employé.e)",
     color: "var(--color-green)",
+  },
+  {
+    label: "Sur le long terme",
+    color: "var(--color-yellow)",
   },
 ];
 
@@ -58,9 +60,9 @@ export default function Hero() {
         </div>
 
         {/* Visual: return journey snapshot */}
-        <div className="relative mx-auto mt-20 max-w-4xl">
+        <div className="relative mx-auto mt-20 max-w-5xl">
           <div className="relative rounded-3xl border border-black/5 bg-white p-3 shadow-xl shadow-[var(--color-violet)]/5 sm:p-4">
-            <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {JOURNEY_STEPS.map((step) => (
                 <div
                   key={step.label}
@@ -69,9 +71,12 @@ export default function Hero() {
                 >
                   <p className="font-display text-sm font-semibold text-[var(--foreground)]">
                     {step.label}
-                  </p>
-                  <p className="mt-2 text-sm font-light text-[var(--foreground)]/70">
-                    {step.desc}
+                    {step.suffix && (
+                      <span className="font-body text-xs font-light text-[var(--foreground)]/60">
+                        {" "}
+                        {step.suffix}
+                      </span>
+                    )}
                   </p>
                 </div>
               ))}
