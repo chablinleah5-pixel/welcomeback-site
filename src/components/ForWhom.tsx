@@ -34,7 +34,7 @@ const AUDIENCES = [
 
 export default function ForWhom() {
   return (
-    <section className="bg-white py-24 sm:py-32">
+    <section className="bg-white py-14 sm:py-20">
       <Container>
         <div className="max-w-2xl">
           <Eyebrow color="green">Pour qui</Eyebrow>
