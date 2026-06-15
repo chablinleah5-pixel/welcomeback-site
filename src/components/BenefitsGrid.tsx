@@ -10,7 +10,7 @@ export type Benefit = {
 
 export default function BenefitsGrid({ benefits }: { benefits: Benefit[] }) {
   return (
-    <section className="py-20 sm:py-28">
+    <section className="pt-4 pb-20 sm:pt-6 sm:pb-28">
       <Container>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {benefits.map((benefit) => {
