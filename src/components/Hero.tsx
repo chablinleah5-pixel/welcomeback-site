@@ -5,8 +5,7 @@ import Dots from "./Dots";
 
 const JOURNEY_STEPS = [
   {
-    label: "Avant l'absence",
-    suffix: "(quand celle-ci est planifiée)",
+    label: "Avant une absence planifiée",
     image: "/images/wave-yellow.png",
   },
   {
@@ -79,11 +78,6 @@ export default function Hero() {
                     <p className="font-display text-sm font-semibold leading-snug text-[var(--foreground)]">
                       {step.label}
                     </p>
-                    {step.suffix && (
-                      <p className="mt-1 font-body text-xs font-light leading-snug text-[var(--foreground)]/65">
-                        {step.suffix}
-                      </p>
-                    )}
                   </div>
                 </div>
               ))}
