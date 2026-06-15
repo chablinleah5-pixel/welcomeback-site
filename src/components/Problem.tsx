@@ -4,7 +4,7 @@ import Eyebrow from "./Eyebrow";
 const PROBLEMS = [
   {
     title: "Des retours mal préparés",
-    text: "Le retour est décidé, mais personne ne sait précisément qui doit faire quoi, ni quand. Le jour J arrive sans cadre clair.",
+    text: "La date de reprise est fixée, mais personne ne sait précisément qui doit faire quoi, ni quand. Le jour J arrive sans cadre clair.",
   },
   {
     title: "Des pratiques disparates",
@@ -31,11 +31,11 @@ export default function Problem() {
             souvent géré au cas par cas.
           </h2>
           <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
-            Congé maternité, arrêt maladie, burn-out, congé parental, aidance,
-            adoption : ces absences sont fréquentes, mais leur retour reste
-            rarement structuré. Le résultat : de l&apos;incertitude pour
-            tout le monde, et un risque accru de rechute ou de nouvelle
-            absence.
+            Congé maternité, arrêt maladie, congé parental, aidance,
+            adoption : ces absences font partie de la vie de
+            l&apos;entreprise, mais leur retour reste rarement structuré.
+            Résultat : de l&apos;incertitude pour tout le monde, et un risque
+            accru de nouvelle absence ou même de perte de talents.
           </p>
         </div>
 
