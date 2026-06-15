@@ -15,7 +15,7 @@ const BENEFITS = [
   {
     icon: Eye,
     title: "Visibilité sur le retour",
-    text: "Avant même le premier jour, la personne sait à quoi s'attendre : organisation, interlocuteurs, étapes prévues.",
+    text: "Avant même le premier jour, la personne sait à quoi s'attendre : organisation, interlocuteur.rice.s, étapes prévues.",
     color: "var(--color-green)",
   },
   {
