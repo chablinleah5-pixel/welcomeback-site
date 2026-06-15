@@ -56,58 +56,8 @@ export default function ManagersPage() {
       <PageHeader
         eyebrow="Pour les managers"
         eyebrowColor="pink"
-         title="Le bon geste, au bon moment. Sans improvisation."
+        title="Le bon geste, au bon moment. Sans improvisation."
         subtitle="Accompagner un retour après une absence longue est rarement enseigné. Welcome Back donne aux managers les outils concrets pour le faire avec justesse, dans le respect de chacun.e."
-
-6. src/app/salaries/page.tsx
-Ligne ~11, remplacez :
-tsx    "Welcome Back donne aux salarié.e.s de la visibilité, des repères et réduit le stress lié au retour après une absence longue : congé maternité, arrêt maladie, burn-out, congé parental.",
-par :
-tsx    "Welcome Back donne aux salarié.e.s de la visibilité, des repères et réduit le stress lié au retour après une absence longue : congé maternité, arrêt maladie, congé parental.",
-Ligne ~60, remplacez :
-tsx        subtitle="Après un congé maternité, un arrêt maladie, un burn-out ou un congé parental, revenir au travail s'accompagne souvent d'incertitudes. Welcome Back apporte de la clarté sur l'organisation du retour — sans rien imposer."
-par :
-tsx        subtitle="Après un congé maternité, un arrêt maladie ou un congé parental, revenir au travail s'accompagne souvent d'incertitudes. Welcome Back apporte de la clarté sur l'organisation du retour, sans rien imposer."
-Ligne ~76, remplacez :
-tsx              bonnes conditions, à chacun son rythme.
-par :
-tsx              bonnes conditions, à chacun.e son rythme.
-
-Note : "burn-out" subsiste encore dans src/app/layout.tsx (métadonnées SEO globales) et src/components/Footer.tsx — vous n'aviez mentionné que la section homepage et la page Salariés. Dites-moi si vous voulez que je le retire aussi de ces deux endroits.
-Build vérifié OK pour tous ces changements.Vous avez dit : retirer burn out de partoutretirer burn out de partout17:14Claude a répondu : Build OK, "burn-out" entièrement retiré.Exécuté 3 commandes, a consulté 2 fichiers, 2 fichiers modifiésExécuté 3 commandes, a consulté 2 fichiers, 2 fichiers modifiésBuild OK, "burn-out" entièrement retiré. Deux fichiers à mettre à jour sur GitHub :
-
-src/app/layout.tsx
-Lignes ~8-18, remplacez :
-tsx    "Welcome Back aide les RH, managers et salarié.e.s à structurer et automatiser l'accompagnement des retours après une absence longue : congé maternité, arrêt maladie, burn-out, congé parental, aidance.",
-  keywords: [
-    "retour au travail",
-    "absence longue",
-    "RH",
-    "congé maternité",
-    "burn-out",
-    "reprise du travail",
-    "SaaS RH",
-  ],
-par :
-tsx    "Welcome Back aide les RH, managers et salarié.e.s à structurer et automatiser l'accompagnement des retours après une absence longue : congé maternité, arrêt maladie, congé parental, aidance.",
-  keywords: [
-    "retour au travail",
-    "absence longue",
-    "RH",
-    "congé maternité",
-    "reprise du travail",
-    "SaaS RH",
-  ],
-
-src/components/Footer.tsx
-Lignes ~37-39, remplacez :
-tsx            La solution qui structure et automatise l&apos;accompagnement des
-            retours après une absence longue : maternité, maladie, burn-out,
-            parentalité, aidance.
-par :
-tsx            La solution qui structure et automatise l&apos;accompagnement des
-            retours après une absence longue : maternité, maladie,
-            parentalité, aidance.Souhaitez-vous être averti lorsque Claude répond ?Notifier
         seed={21}
       />
 
