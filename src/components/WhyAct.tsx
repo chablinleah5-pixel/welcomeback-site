@@ -1,5 +1,4 @@
 import Container from "./Container";
-import Eyebrow from "./Eyebrow";
 
 const STATS = [
   {
@@ -27,8 +26,7 @@ export default function WhyAct() {
     <section className="bg-white py-14 sm:py-20">
       <Container>
         <div className="max-w-2xl">
-          <Eyebrow color="pink">Pourquoi agir</Eyebrow>
-         <p className="mt-5 text-lg font-light leading-relaxed text-[var(--foreground)]/80">
+          <p className="text-lg font-light leading-relaxed text-[var(--foreground)]/80">
             Chaque retour après une absence longue est un moment à risque
             pour l&apos;engagement, la performance et la rétention des
             talents. Un retour mal accompagné peut générer de nouvelles
