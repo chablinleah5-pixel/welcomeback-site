@@ -26,7 +26,8 @@ export default function SimpleFramework() {
         <div className="max-w-2xl">
           <Eyebrow color="lavender">Le cadre Welcome Back</Eyebrow>
           <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-            Un cadre simple pour accompagner chaque retour
+            Un cadre simple, déjà testé auprès d&apos;organisations publiques
+            et privées, pour accompagner chaque retour
           </h2>
           <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
             Les retours après une absence longue impliquent plusieurs
