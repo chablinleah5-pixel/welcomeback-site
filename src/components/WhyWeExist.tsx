@@ -11,21 +11,22 @@ export default function WhyWeExist() {
             Pourquoi Welcome Back existe
           </h2>
           <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
-            Les retours après une absence longue sont des moments
-            déterminants dans une vie professionnelle. Pourtant, ils
-            reposent encore trop souvent sur l&apos;improvisation.
+            Les retours après une absence longue sont souvent traités comme
+            des situations individuelles. Pourtant, ils concernent chaque
+            année des milliers de salarié.e.s, de managers et
+            d&apos;organisations.
           </p>
           <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
-            Un.e manager qui veut bien faire mais ne sait pas comment s&apos;y
-            prendre. Une équipe qui ne sait pas quelle place laisser. Une
-            personne qui revient sans savoir à quoi s&apos;attendre.
+            Congé maternité, arrêt maladie, burn-out, aidance, congé
+            parental : ces transitions ont un impact humain, organisationnel
+            et économique.
           </p>
           <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
             Welcome Back est né d&apos;une conviction simple :
           </p>
           <p className="mt-5 font-display text-xl font-semibold leading-relaxed text-[var(--foreground)]">
-            La qualité d&apos;un retour ne devrait jamais dépendre du hasard.
-            Elle devrait être garantie par l&apos;organisation.
+            La qualité d&apos;un retour ne devrait jamais dépendre du hasard,
+            du temps disponible ou de l&apos;expérience d&apos;un manager.
           </p>
         </div>
       </Container>
