@@ -38,7 +38,7 @@ export default function SolutionPage() {
         eyebrow="La solution"
         eyebrowColor="lavender"
        title="Un cadre simple pour accompagner chaque retour"
-        subtitle="Welcome Back accompagne chaque étape du retour après une absence longue : avant, pendant et après la reprise. Chaque acteur sait quoi faire, quand le faire et comment le faire."
+        subtitle="Chaque acteur sait quoi faire, quand le faire et comment le faire."
         seed={4}
       />
 
