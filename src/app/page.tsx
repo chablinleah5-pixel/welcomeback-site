@@ -4,6 +4,7 @@ import Problem from "@/components/Problem";
 import Stats from "@/components/Stats";
 import SimpleFramework from "@/components/SimpleFramework";
 import HowItWorks from "@/components/HowItWorks";
+import WhatMakesUsDifferent from "@/components/WhatMakesUsDifferent";
 import ForLeadershipTeaser from "@/components/ForLeadershipTeaser";
 import ForWhom from "@/components/ForWhom";
 import WhyWeExist from "@/components/WhyWeExist";
@@ -20,6 +21,7 @@ export default function Home() {
       <Stats />
       <SimpleFramework />
       <HowItWorks />
+      <WhatMakesUsDifferent />
       <ForLeadershipTeaser />
       <ForWhom />
       <WhyWeExist />
