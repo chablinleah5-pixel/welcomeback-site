@@ -40,15 +40,17 @@ export default function Hero() {
       <Container className="relative pt-16 sm:pt-20">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="font-display text-4xl font-bold leading-[1.12] tracking-tight text-[var(--foreground)] sm:text-5xl md:text-6xl">
-            Parce qu&apos;accueillir un retour après une absence longue ne
-            s&apos;improvise pas.
+            Parce qu&apos;accueillir un retour au travail après une absence
+            longue ne s&apos;improvise pas.
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg font-light leading-relaxed text-[var(--foreground)]/70">
-           Welcome Back structure et automatise l&apos;accompagnement des
+            Welcome Back structure et automatise l&apos;accompagnement des
             retours en entreprise après une absence longue.
-            <br />
+          </p>
+          <p className="mx-auto mt-2 max-w-2xl text-lg font-light leading-relaxed text-[var(--foreground)]/70">
             Les bons outils, aux bonnes personnes, au bon moment.
+          </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button href="/contact">Nous contacter</Button>
