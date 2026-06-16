@@ -7,28 +7,76 @@ import Eyebrow from "@/components/Eyebrow";
 export const metadata: Metadata = {
   title: "La solution — Welcome Back",
   description:
-    "Découvrez le parcours Welcome Back : avant le retour, pendant la reprise, après le retour. Une structure claire pour chaque absence longue.",
+    "Découvrez comment Welcome Back structure les retours après une absence longue pour les RH, managers, salarié.e.s et directions.",
 };
 
-const STEPS = [
+const PHASES = [
   {
-    phase: "Avant le retour",
-    title: "Préparer",
-    text: "Les bonnes actions sont déclenchées avant la reprise.",
+    label: "Avant le retour",
+    title: "Préparer plutôt qu'improviser.",
+    text: "Welcome Back déclenche les bonnes actions au bon moment : informer les parties prenantes, préparer le manager, anticiper les ajustements nécessaires. Rien n'est laissé au hasard.",
     color: "var(--color-lavender)",
   },
   {
-    phase: "Pendant la reprise",
-    title: "Accompagner",
-    text: "Chaque acteur reçoit les bons repères au bon moment.",
+    label: "Pendant les premières semaines",
+    title: "Accompagner sans surcharger.",
+    text: "Des repères clairs sont fournis à chaque acteur : la personne qui reprend, le manager qui accueille, les RH qui coordonnent. Les échanges sont structurés, les étapes balisées.",
     color: "var(--color-pink)",
   },
   {
-    phase: "Après le retour",
-    title: "Suivre",
-    text: "La reprise reste visible et pilotable dans le temps.",
+    label: "Dans la durée",
+    title: "Suivre et ajuster.",
+    text: "Le suivi ne s'arrête pas à la première semaine. Welcome Back permet d'identifier rapidement les situations qui nécessitent un ajustement et d'agir avant que les difficultés ne s'installent.",
     color: "var(--color-green)",
   },
+];
+
+const BENEFITS = [
+  {
+    role: "RH",
+    points: [
+      "Vision claire sur tous les retours en cours",
+      "Harmonisation des pratiques à l'échelle de l'organisation",
+      "Gain de temps sur le suivi et la coordination",
+    ],
+    color: "var(--color-yellow)",
+  },
+  {
+    role: "Managers",
+    points: [
+      "Repères concrets pour accompagner sans improviser",
+      "Cadre simple, adapté à chaque situation",
+      "Moins d'incertitude sur ce qu'il faut faire",
+    ],
+    color: "var(--color-pink)",
+  },
+  {
+    role: "Salarié.e.s",
+    points: [
+      "Visibilité sur le déroulé du retour",
+      "Retour mieux préparé et anticipé",
+      "Accompagnement cohérent tout au long de la reprise",
+    ],
+    color: "var(--color-green)",
+  },
+  {
+    role: "Directions",
+    points: [
+      "Meilleure maîtrise des risques liés aux absences longues",
+      "Fidélisation renforcée des talents",
+      "Cohérence des pratiques RH à l'échelle du groupe",
+    ],
+    color: "var(--color-lavender)",
+  },
+];
+
+const SITUATIONS = [
+  "Congé maternité",
+  "Congé parental",
+  "Arrêt maladie",
+  "Longue maladie",
+  "Aidance",
+  "Autres absences longues",
 ];
 
 export default function SolutionPage() {
@@ -37,34 +85,46 @@ export default function SolutionPage() {
       <PageHeader
         eyebrow="La solution"
         eyebrowColor="lavender"
-       title="Un cadre simple pour accompagner chaque retour"
-       subtitle="Grâce à Welcome Back, chaque personne sait quoi faire, quand le faire et comment le faire."
+        title="Un cadre simple pour accompagner chaque retour"
+        subtitle="Grâce à Welcome Back, chaque personne sait quoi faire, quand le faire et comment le faire."
         seed={4}
       />
 
-      <section className="py-20 sm:py-28">
+      <section className="bg-white py-14 sm:py-20">
         <Container>
           <div className="max-w-2xl">
-            <Eyebrow color="lavender">Comment ça fonctionne</Eyebrow>
+            <p className="text-base font-light leading-relaxed text-[var(--foreground)]/70">
+              Welcome Back structure les retours après une absence longue pour
+              l&apos;ensemble des acteurs concernés : salarié.e, manager, RH
+              et direction. Chacun reçoit les bonnes informations, au bon
+              moment, sans charge administrative supplémentaire.
+            </p>
           </div>
+        </Container>
+      </section>
 
+      <section className="py-14 sm:py-20">
+        <Container>
+          <div className="max-w-2xl">
+            <Eyebrow color="lavender">Une approche pensée pour toute la durée du retour</Eyebrow>
+          </div>
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
-            {STEPS.map((step) => (
+            {PHASES.map((phase) => (
               <div
-                key={step.phase}
+                key={phase.label}
                 className="flex flex-col rounded-3xl border border-black/5 bg-white p-8"
               >
                 <span
                   className="inline-flex w-fit items-center rounded-full px-4 py-1.5 text-xs font-medium tracking-wide uppercase text-[var(--color-violet)]"
-                  style={{ backgroundColor: `${step.color}55` }}
+                  style={{ backgroundColor: `${phase.color}55` }}
                 >
-                  {step.phase}
+                  {phase.label}
                 </span>
                 <h3 className="mt-5 font-display text-xl font-semibold text-[var(--foreground)]">
-                  {step.title}
+                  {phase.title}
                 </h3>
-                <p className="mt-2.5 text-sm font-light leading-relaxed text-[var(--foreground)]/65">
-                  {step.text}
+                <p className="mt-3 text-sm font-light leading-relaxed text-[var(--foreground)]/65">
+                  {phase.text}
                 </p>
               </div>
             ))}
@@ -72,7 +132,69 @@ export default function SolutionPage() {
         </Container>
       </section>
 
-      <CtaBanner seed={6} />
+      <section className="bg-white py-14 sm:py-20">
+        <Container>
+          <div className="max-w-2xl">
+            <Eyebrow color="green">Ce qui change avec Welcome Back</Eyebrow>
+          </div>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {BENEFITS.map((benefit) => (
+              <div
+                key={benefit.role}
+                className="flex flex-col rounded-3xl p-7"
+                style={{ backgroundColor: `${benefit.color}30` }}
+              >
+                <span
+                  className="inline-flex w-fit items-center rounded-full px-4 py-1.5 text-xs font-medium tracking-wide uppercase text-[var(--color-violet)]"
+                  style={{ backgroundColor: `${benefit.color}55` }}
+                >
+                  {benefit.role}
+                </span>
+                <ul className="mt-5 space-y-2">
+                  {benefit.points.map((point) => (
+                    <li
+                      key={point}
+                      className="text-sm font-light leading-relaxed text-[var(--foreground)]/70"
+                    >
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-14 sm:py-20">
+        <Container>
+          <div className="grid gap-12 lg:grid-cols-[1fr_1fr] lg:items-start">
+            <div className="max-w-md">
+              <Eyebrow color="pink">Situations concernées</Eyebrow>
+              <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
+                Welcome Back accompagne toutes les absences longues.
+              </h2>
+            </div>
+            <ul className="mt-2 grid grid-cols-2 gap-3">
+              {SITUATIONS.map((s) => (
+                <li
+                  key={s}
+                  className="rounded-2xl px-5 py-4 text-sm font-light text-[var(--foreground)]/70"
+                  style={{ backgroundColor: "var(--color-lavender)" + "30" }}
+                >
+                  {s}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </Container>
+      </section>
+
+      <CtaBanner
+        title="Planifier un échange"
+        subtitle="Échangeons sur votre contexte et découvrez comment Welcome Back peut s'intégrer à votre organisation."
+        seed={6}
+      />
     </>
   );
 }
