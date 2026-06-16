@@ -28,7 +28,7 @@ export default function WhyWeExist() {
           <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
             Pourtant, les retours après une absence longue sont des moments
             déterminants dans la vie professionnelle : congé maternité,
-            arrêt maladie, burn-out, congé parental, aidance...
+            arrêt maladie, congé parental, aidance...
           </p>
 
           <p className="mt-3 text-base font-light leading-relaxed text-[var(--foreground)]/70">
