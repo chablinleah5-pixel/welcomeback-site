@@ -46,7 +46,7 @@ export default function Hero() {
 
           <p className="mx-auto mt-6 max-w-2xl text-lg font-light leading-relaxed text-[var(--foreground)]/70">
             Welcome Back structure et automatise l&apos;accompagnement des
-            retours en entreprise après une absence longue.
+            retours après une absence longue.
           </p>
           <p className="mx-auto mt-2 max-w-2xl text-lg font-light leading-relaxed text-[var(--foreground)]/70">
             Les bons outils, aux bonnes personnes, au bon moment.
