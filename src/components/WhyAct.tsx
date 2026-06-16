@@ -1,4 +1,5 @@
 import Container from "./Container";
+import Eyebrow from "./Eyebrow";
 
 const STATS = [
   {
@@ -21,12 +22,21 @@ const STATS = [
   },
 ];
 
+const STAKES = [
+  "Maintenir l'engagement des collaborateurs.rices lors de périodes sensibles.",
+  "Réduire le risque de nouveaux arrêts ou de départs évitables.",
+  "Sécuriser les obligations RH et managériales.",
+  "Préserver la continuité de l'activité et la performance collective.",
+  "Renforcer durablement la marque employeur.",
+];
+
 export default function WhyAct() {
   return (
     <section className="bg-white py-14 sm:py-20">
       <Container>
         <div className="max-w-2xl">
-          <p className="text-lg font-light leading-relaxed text-[var(--foreground)]/80">
+          <Eyebrow color="pink">Pourquoi agir</Eyebrow>
+          <p className="mt-5 text-lg font-light leading-relaxed text-[var(--foreground)]/80">
             Chaque retour après une absence longue est un moment à risque
             pour l&apos;engagement, la performance et la rétention des
             talents. De quoi entraîner des coûts humains, organisationnels
@@ -55,6 +65,22 @@ export default function WhyAct() {
         <p className="mt-10 text-xs font-light text-[var(--foreground)]/45">
           Sources : Issence, Ayming, Malakoff Humanis.
         </p>
+
+        <div className="mt-12 max-w-2xl">
+          <p className="text-base font-medium text-[var(--foreground)]">
+            Derrière ces chiffres se cachent des enjeux très concrets
+          </p>
+          <ul className="mt-4 space-y-2">
+            {STAKES.map((stake) => (
+              <li
+                key={stake}
+                className="text-sm font-light leading-relaxed text-[var(--foreground)]/70"
+              >
+                — {stake}
+              </li>
+            ))}
+          </ul>
+        </div>
       </Container>
     </section>
   );
