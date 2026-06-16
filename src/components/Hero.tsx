@@ -45,12 +45,10 @@ export default function Hero() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg font-light leading-relaxed text-[var(--foreground)]/70">
-            Welcome Back structure et automatise l&apos;accompagnement des
-            retours en entreprise après une absence longue.   
-          </p>
-         <p  Les bons outils, aux bonnes
-            personnes, au bon moment.
-          </p>
+           Welcome Back structure et automatise l&apos;accompagnement des
+            retours en entreprise après une absence longue.
+            <br />
+            Les bons outils, aux bonnes personnes, au bon moment.
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button href="/contact">Nous contacter</Button>
