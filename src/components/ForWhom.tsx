@@ -1,14 +1,13 @@
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
-import Container from "./Container";
-import Eyebrow from "./Eyebrow";
-
 const AUDIENCES = [
   {
-    title: "Pour les RH",
-    href: "/rh",
-    points: ["Gain de temps", "Conformité", "Homogénéisation des pratiques"],
-    color: "var(--color-yellow)",
+    title: "Pour les salarié.e.s",
+    href: "/salaries",
+    points: [
+      "Visibilité sur le parcours",
+      "Des repères concrets",
+      "Moins de stress au moment du retour",
+    ],
+    color: "var(--color-green)",
   },
   {
     title: "Pour les managers",
@@ -21,27 +20,22 @@ const AUDIENCES = [
     color: "var(--color-pink)",
   },
   {
-    title: "Pour les salarié.e.s",
-    href: "/salaries",
+    title: "Pour les RH",
+    href: "/rh",
+    points: ["Gain de temps", "Conformité", "Homogénéisation des pratiques"],
+    color: "var(--color-yellow)",
+  },
+  {
+    title: "Pour les directions",
+    href: "/entreprises",
     points: [
-      "Visibilité sur le parcours",
-      "Des repères concrets",
-      "Moins de stress au moment du retour",
+      "Réduire les coûts cachés liés aux absences longues",
+      "Sécuriser les pratiques RH",
+      "Renforcer durablement la fidélisation des talents",
     ],
-    color: "var(--color-green)",
+    color: "var(--color-lavender)",
   },
 ];
-
-export default function ForWhom() {
-  return (
-    <section className="bg-white py-14 sm:py-20">
-      <Container>
-        <div className="max-w-2xl">
-          <Eyebrow color="green">Pour qui</Eyebrow>
-          <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-            Un cadre commun, pensé pour chaque rôle.
-          </h2>
-        </div>
 
         <div className="mt-14 grid gap-6 lg:grid-cols-3">
           {AUDIENCES.map((audience) => (
