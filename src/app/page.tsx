@@ -24,15 +24,11 @@ export default function Home() {
             <div>
               <Eyebrow color="lavender">Contact</Eyebrow>
               <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-                Échangeons sur votre contexte.
-              </h2>
-             <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
                 Échangeons sur votre situation !
               </h2>
               <p className="mt-4 max-w-md text-base font-light leading-relaxed text-[var(--foreground)]/70">
                 Remplissez ce court formulaire et nous reviendrons vers vous
                 rapidement.
-              </p>
               </p>
             </div>
             <ContactForm />
