@@ -70,13 +70,13 @@ export default function WhyAct() {
           <p className="text-base font-medium text-[var(--foreground)]">
             Derrière ces chiffres se cachent des enjeux très concrets
           </p>
-          <ul className="mt-4 space-y-2">
+          <ul className="mt-4 list-disc space-y-2 pl-5">
             {STAKES.map((stake) => (
               <li
                 key={stake}
                 className="text-sm font-light leading-relaxed text-[var(--foreground)]/70"
               >
-                — {stake}
+                {stake}
               </li>
             ))}
           </ul>
