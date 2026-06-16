@@ -90,12 +90,12 @@ export default function SolutionPage() {
         seed={4}
       />
 
-      <section className="bg-white py-14 sm:py-20">
+      <section className="bg-white py-8 sm:py-10">
         <Container>
-          <div className="max-w-2xl">
+          <div className="mx-auto max-w-2xl text-center">
             <p className="text-base font-light leading-relaxed text-[var(--foreground)]/70">
               Welcome Back structure les retours après une absence longue pour
-              l&apos;ensemble des acteurs concernés : salarié.e, manager, RH
+              l&apos;ensemble des acteurs concerné.e.s : salarié.e, manager, RH
               et direction. Chacun reçoit les bonnes informations, au bon
               moment, sans charge administrative supplémentaire.
             </p>
@@ -103,10 +103,10 @@ export default function SolutionPage() {
         </Container>
       </section>
 
-      <section className="py-14 sm:py-20">
+      <section className="py-8 sm:py-12">
         <Container>
           <div className="max-w-2xl">
-            <Eyebrow color="lavender">Une approche pensée pour toute la durée du retour</Eyebrow>
+            <Eyebrow color="lavender">Un accompagnement pensé avant, pendant et après la reprise</Eyebrow>
           </div>
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
             {PHASES.map((phase) => (
