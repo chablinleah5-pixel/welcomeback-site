@@ -29,10 +29,9 @@ export default function WhyAct() {
           <p className="text-lg font-light leading-relaxed text-[var(--foreground)]/80">
             Chaque retour après une absence longue est un moment à risque
             pour l&apos;engagement, la performance et la rétention des
-            talents. Un retour mal accompagné peut générer de nouvelles
-            absences, des désorganisations d&apos;équipe et des coûts
-            significatifs pour l&apos;entreprise. Pourtant, ce moment
-            charnière est encore rarement préparé.
+            talents. De quoi entraîner des coûts humains, organisationnels
+            et financiers importants. Pourtant, ce moment charnière est
+            rarement préparé.
           </p>
         </div>
 
