@@ -1,3 +1,8 @@
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import Container from "./Container";
+import Eyebrow from "./Eyebrow";
+
 const AUDIENCES = [
   {
     title: "Pour les salarié.e.s",
@@ -37,7 +42,18 @@ const AUDIENCES = [
   },
 ];
 
-        <div className="mt-14 grid gap-6 lg:grid-cols-3">
+export default function ForWhom() {
+  return (
+    <section className="bg-white py-14 sm:py-20">
+      <Container>
+        <div className="max-w-2xl">
+          <Eyebrow color="green">Pour qui</Eyebrow>
+          <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
+            Un cadre commun, pensé pour chaque rôle.
+          </h2>
+        </div>
+
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {AUDIENCES.map((audience) => (
             <Link
               key={audience.title}
