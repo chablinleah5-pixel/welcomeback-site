@@ -26,10 +26,13 @@ export default function Home() {
               <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
                 Échangeons sur votre contexte.
               </h2>
+             <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
+                Échangeons sur votre situation !
+              </h2>
               <p className="mt-4 max-w-md text-base font-light leading-relaxed text-[var(--foreground)]/70">
-                Décrivez-nous votre organisation et les types d&apos;absences
-                longues que vous accompagnez. Nous reviendrons vers vous
-                rapidement pour organiser une démonstration adaptée.
+                Remplissez ce court formulaire et nous reviendrons vers vous
+                rapidement.
+              </p>
               </p>
             </div>
             <ContactForm />
