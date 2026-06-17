@@ -57,8 +57,8 @@ export default function SimpleFramework() {
         </div>
 
         <p className="mt-10 max-w-2xl text-base font-light leading-relaxed text-[var(--foreground)]/70">
-          Chaque acteur reçoit les bonnes informations au bon moment, sans
-          charge administrative supplémentaire.
+          Chaque acteur.rice reçoit les bonnes informations au bon moment,
+            sans charge administrative supplémentaire.
         </p>
       </Container>
     </section>
