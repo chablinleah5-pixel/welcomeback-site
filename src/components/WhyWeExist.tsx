@@ -44,11 +44,7 @@ export default function WhyWeExist() {
             quel que soit le contexte ou l&apos;organisation.
           </p>
 
-          <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
-            Aujourd&apos;hui, Welcome Back est déjà testé auprès
-            d&apos;organisations publiques et privées afin de construire une
-            solution au plus près des réalités du terrain.
-          </p>
+  
 
           <div className="mt-8 border-l-2 border-[var(--color-violet)]/30 pl-5">
             <p className="font-display text-base font-semibold text-[var(--foreground)]">
