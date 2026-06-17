@@ -17,38 +17,31 @@ export default function WhyWeExist() {
           <div className="mt-5 space-y-1 text-base font-light leading-relaxed text-[var(--foreground)]/70">
             <p>Du manager sur lequel on tombe,</p>
             <p>du temps dont disposent les RH,</p>
-            <p>des pratiques en place dans l&apos;organisation,</p>
-            <p>du cadre mis en place pour accompagner la reprise.</p>
+            <p>des pratiques en place dans l&apos;organisation.</p>
           </div>
 
           <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
-            Pourtant, ces retours sont des moments déterminants. Ils ont des
-            conséquences humaines, mais aussi organisationnelles et économiques
-            importantes pour les organisations.
+            Pourtant, ces transitions sont des moments déterminants. Elles ont
+            un impact humain majeur, mais aussi des conséquences
+            organisationnelles et économiques directes pour les entreprises.
           </p>
 
           <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
-            Après avoir accompagné des équipes, vécu plusieurs retours de congé
+            Après avoir managé des équipes, vécu plusieurs retours de congé
             maternité et traversé moi-même un arrêt pour épuisement
-            professionnel, j&apos;ai réalisé qu&apos;il n&apos;existait pas de
-            cadre simple permettant d&apos;accompagner systématiquement ces
-            moments de transition.
+            professionnel, j&apos;ai réalisé qu&apos;il me manquait un cadre
+            simple pour accompagner systématiquement ces moments charnières.
           </p>
 
           <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
-            C&apos;est pour cette raison que Welcome Back a été créé.
+            C&apos;est pour cette raison que Welcome Back existe. Pour que
+            chaque retour soit préparé, accompagné et suivi, quels que soient
+            le contexte ou l&apos;organisation.
           </p>
-
-          <p className="mt-3 text-base font-light leading-relaxed text-[var(--foreground)]/70">
-            Pour que chaque retour puisse être préparé, suivi et accompagné,
-            quel que soit le contexte ou l&apos;organisation.
-          </p>
-
-  
 
           <div className="mt-8 border-l-2 border-[var(--color-violet)]/30 pl-5">
             <p className="font-display text-base font-semibold text-[var(--foreground)]">
-              Léah,
+              Léah
             </p>
             <p className="mt-0.5 text-sm font-light text-[var(--foreground)]/55">
               Fondatrice de Welcome Back
