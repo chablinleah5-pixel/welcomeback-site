@@ -228,24 +228,11 @@ export default function SolutionPage() {
             ))}
           </div>
 
-          <div className="mt-12 rounded-3xl p-8 text-center" style={{ backgroundColor: "var(--color-lavender)30" }}>
-            <h3 className="font-display text-xl font-semibold text-[var(--foreground)]">
-              Vous avez une situation à préparer ?
-            </h3>
-            <p className="mx-auto mt-3 max-w-xl text-sm font-light leading-relaxed text-[var(--foreground)]/65">
-              Échangeons sur votre contexte et voyons comment Welcome Back peut
-              vous accompagner.
-            </p>
-            <Link href="/contact" className="mt-6 inline-flex items-center rounded-full px-6 py-3 text-sm font-medium text-white" style={{ backgroundColor: "var(--color-violet)" }}>
-              Nous contacter
-            </Link>
-          </div>
-        </Container>
-      </section>
+         
 
       <CtaBanner
         title="Planifier un échange"
-        subtitle="Échangeons sur votre contexte et découvrez comment Welcome Back peut s'intégrer à votre organisation."
+        subtitle="Vous avez une situation à préparer ? Échangeons sur votre contexte et découvrez comment Welcome Back peut s'intégrer à votre organisation."
         seed={6}
       />
     </>
