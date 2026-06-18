@@ -79,6 +79,27 @@ const SITUATIONS = [
   "Autres absences longues",
 ];
 
+const INTERVENTIONS = [
+  {
+    title: "Cadrage & Diagnostic",
+    text: "Un premier échange pour comprendre vos enjeux, identifier les situations de friction et définir vos priorités d'action.",
+    tag: "90 minutes avec votre équipe RH ou Direction",
+    color: "var(--color-lavender)",
+  },
+  {
+    title: "Accompagnement de reprise",
+    text: "Accompagnement structuré d'une situation de reprise en cours afin de sécuriser le retour d'un.e collaborateur.rice.",
+    tag: "Accompagnement sur mesure",
+    color: "var(--color-pink)",
+  },
+  {
+    title: "Atelier managers",
+    text: "Une session pragmatique pour donner aux managers les repères, outils et réflexes nécessaires afin d'accompagner un retour après absence longue.",
+    tag: "Format individuel ou collectif",
+    color: "var(--color-green)",
+  },
+];
+
 export default function SolutionPage() {
   return (
     <>
@@ -186,6 +207,67 @@ export default function SolutionPage() {
                 </li>
               ))}
             </ul>
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-white py-14 sm:py-20">
+        <Container>
+          <div className="max-w-2xl">
+            <Eyebrow color="violet">Nos interventions</Eyebrow>
+            <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
+              Comment nous intervenons aujourd&apos;hui
+            </h2>
+            <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
+              Aujourd&apos;hui, Welcome Back accompagne les organisations qui
+              souhaitent mieux préparer et sécuriser les retours après absence
+              longue.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+            {INTERVENTIONS.map((card) => (
+              <div
+                key={card.title}
+                className="flex flex-col rounded-3xl border border-black/5 bg-white p-8"
+              >
+                <h3 className="font-display text-xl font-semibold text-[var(--foreground)]">
+                  {card.title}
+                </h3>
+                <p className="mt-4 flex-1 text-sm font-light leading-relaxed text-[var(--foreground)]/65">
+                  {card.text}
+                </p>
+                <p
+                  className="mt-6 text-xs font-medium text-[var(--color-violet)]"
+                  style={{
+                    borderTop: `1px solid ${card.color}`,
+                    paddingTop: "1rem",
+                  }}
+                >
+                  → {card.tag}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div
+            className="mt-12 rounded-3xl p-8 text-center"
+            style={{ backgroundColor: "var(--color-lavender)30" }}
+          >
+            <h3 className="font-display text-xl font-semibold text-[var(--foreground)]">
+              Vous avez une situation à préparer ?
+            </h3>
+            <p className="mx-auto mt-3 max-w-xl text-sm font-light leading-relaxed text-[var(--foreground)]/65">
+              Échangeons sur votre contexte et voyons comment Welcome Back peut
+              vous accompagner.
+            </p>
+            
+              href="/contact"
+              className="mt-6 inline-flex items-center rounded-full px-6 py-3 text-sm font-medium text-white"
+              style={{ backgroundColor: "var(--color-violet)" }}
+            >
+              Nous contacter
+            </a>
           </div>
         </Container>
       </section>
