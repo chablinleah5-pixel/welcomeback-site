@@ -3,7 +3,6 @@ import Container from "@/components/Container";
 import PageHeader from "@/components/PageHeader";
 import CtaBanner from "@/components/CtaBanner";
 import Eyebrow from "@/components/Eyebrow";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "La solution — Welcome Back",
@@ -227,8 +226,8 @@ export default function SolutionPage() {
               </div>
             ))}
           </div>
-
-         
+        </Container>
+      </section>
 
       <CtaBanner
         title="Planifier un échange"
