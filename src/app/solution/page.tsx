@@ -3,6 +3,7 @@ import Container from "@/components/Container";
 import PageHeader from "@/components/PageHeader";
 import CtaBanner from "@/components/CtaBanner";
 import Eyebrow from "@/components/Eyebrow";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "La solution — Welcome Back",
@@ -131,10 +132,7 @@ export default function SolutionPage() {
           </div>
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
             {PHASES.map((phase) => (
-              <div
-                key={phase.label}
-                className="flex flex-col rounded-3xl border border-black/5 bg-white p-8"
-              >
+              <div key={phase.label} className="flex flex-col rounded-3xl border border-black/5 bg-white p-8">
                 <span
                   className="inline-flex w-fit items-center rounded-full px-4 py-1.5 text-xs font-medium tracking-wide uppercase text-[var(--color-violet)]"
                   style={{ backgroundColor: `${phase.color}55` }}
@@ -160,11 +158,7 @@ export default function SolutionPage() {
           </div>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {BENEFITS.map((benefit) => (
-              <div
-                key={benefit.role}
-                className="flex flex-col rounded-3xl p-7"
-                style={{ backgroundColor: `${benefit.color}30` }}
-              >
+              <div key={benefit.role} className="flex flex-col rounded-3xl p-7" style={{ backgroundColor: `${benefit.color}30` }}>
                 <span
                   className="inline-flex w-fit items-center rounded-full px-4 py-1.5 text-xs font-medium tracking-wide uppercase text-[var(--color-violet)]"
                   style={{ backgroundColor: `${benefit.color}55` }}
@@ -173,10 +167,7 @@ export default function SolutionPage() {
                 </span>
                 <ul className="mt-5 space-y-2">
                   {benefit.points.map((point) => (
-                    <li
-                      key={point}
-                      className="text-sm font-light leading-relaxed text-[var(--foreground)]/70"
-                    >
+                    <li key={point} className="text-sm font-light leading-relaxed text-[var(--foreground)]/70">
                       {point}
                     </li>
                   ))}
@@ -198,11 +189,7 @@ export default function SolutionPage() {
             </div>
             <ul className="mt-2 grid grid-cols-2 gap-3">
               {SITUATIONS.map((s) => (
-                <li
-                  key={s}
-                  className="rounded-2xl px-5 py-4 text-sm font-light text-[var(--foreground)]/70"
-                  style={{ backgroundColor: "var(--color-lavender)" + "30" }}
-                >
+                <li key={s} className="rounded-2xl px-5 py-4 text-sm font-light text-[var(--foreground)]/70" style={{ backgroundColor: "var(--color-lavender)30" }}>
                   {s}
                 </li>
               ))}
@@ -227,33 +214,21 @@ export default function SolutionPage() {
 
           <div className="mt-12 grid gap-6 lg:grid-cols-3">
             {INTERVENTIONS.map((card) => (
-              <div
-                key={card.title}
-                className="flex flex-col rounded-3xl border border-black/5 bg-white p-8"
-              >
+              <div key={card.title} className="flex flex-col rounded-3xl border border-black/5 bg-white p-8">
                 <h3 className="font-display text-xl font-semibold text-[var(--foreground)]">
                   {card.title}
                 </h3>
                 <p className="mt-4 flex-1 text-sm font-light leading-relaxed text-[var(--foreground)]/65">
                   {card.text}
                 </p>
-                <p
-                  className="mt-6 text-xs font-medium text-[var(--color-violet)]"
-                  style={{
-                    borderTop: `1px solid ${card.color}`,
-                    paddingTop: "1rem",
-                  }}
-                >
-                  → {card.tag}
+                <p className="mt-6 text-xs font-medium text-[var(--color-violet)]" style={{ borderTop: `1px solid ${card.color}`, paddingTop: "1rem" }}>
+                  {"->"} {card.tag}
                 </p>
               </div>
             ))}
           </div>
 
-          <div
-            className="mt-12 rounded-3xl p-8 text-center"
-            style={{ backgroundColor: "var(--color-lavender)30" }}
-          >
+          <div className="mt-12 rounded-3xl p-8 text-center" style={{ backgroundColor: "var(--color-lavender)30" }}>
             <h3 className="font-display text-xl font-semibold text-[var(--foreground)]">
               Vous avez une situation à préparer ?
             </h3>
@@ -261,13 +236,9 @@ export default function SolutionPage() {
               Échangeons sur votre contexte et voyons comment Welcome Back peut
               vous accompagner.
             </p>
-            
-              href="/contact"
-              className="mt-6 inline-flex items-center rounded-full px-6 py-3 text-sm font-medium text-white"
-              style={{ backgroundColor: "var(--color-violet)" }}
-            >
+            <Link href="/contact" className="mt-6 inline-flex items-center rounded-full px-6 py-3 text-sm font-medium text-white" style={{ backgroundColor: "var(--color-violet)" }}>
               Nous contacter
-            </a>
+            </Link>
           </div>
         </Container>
       </section>
