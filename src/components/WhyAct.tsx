@@ -23,11 +23,11 @@ const STATS = [
 ];
 
 const STAKES = [
-  "Maintenir l'engagement des collaborateurs.rices lors de périodes sensibles.",
-  "Réduire le risque de nouveaux arrêts ou de départs évitables.",
-  "Sécuriser les obligations RH et managériales.",
-  "Préserver la continuité de l'activité et la performance collective.",
-  "Renforcer durablement la marque employeur.",
+  "Un risque accru de départ après le retour",
+  "Un risque de nouvel arrêt de travail",
+  "Du temps RH et managérial mobilisé dans l'urgence",
+  "Une perte d'engagement et de performance",
+  "Une expérience collaborateur dégradée",
 ];
 
 export default function WhyAct() {
@@ -68,18 +68,22 @@ export default function WhyAct() {
 
         <div className="mt-12 max-w-2xl">
           <p className="text-base font-medium text-[var(--foreground)]">
-            Derrière ces chiffres se cachent des enjeux très concrets
+            Derrière ces chiffres se cachent des conséquences très concrètes
           </p>
-          <ul className="mt-4 list-disc space-y-2 pl-5">
+          <ul className="mt-4 space-y-2">
             {STAKES.map((stake) => (
               <li
                 key={stake}
                 className="text-sm font-light leading-relaxed text-[var(--foreground)]/70"
               >
-                {stake}
+                — {stake}
               </li>
             ))}
           </ul>
+          <p className="mt-5 text-sm font-light leading-relaxed text-[var(--foreground)]/70">
+            Welcome Back aide les organisations à anticiper ces situations
+            plutôt qu&apos;à les subir.
+          </p>
         </div>
       </Container>
     </section>
