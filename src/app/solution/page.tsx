@@ -204,7 +204,7 @@ export default function SolutionPage() {
 
       <section
         className="py-14 sm:py-20"
-        style={{ backgroundColor: "var(--color-pink)1f" }}
+       style={{ backgroundColor: "color-mix(in srgb, var(--color-pink) 30%, white)" }}
       >
         <Container>
           <div className="max-w-2xl">
