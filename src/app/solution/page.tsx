@@ -193,7 +193,7 @@ export default function SolutionPage() {
             </div>
             <ul className="mt-2 grid grid-cols-2 gap-3">
               {SITUATIONS.map((s) => (
-                <li key={s} className="rounded-2xl px-5 py-4 text-sm font-light text-[var(--foreground)]/70" style={{ backgroundColor: "var(--color-lavender)30" }}>
+                <li key={s} className="rounded-2xl px-5 py-4 text-sm font-light text-[var(--foreground)]/70" style={{ backgroundColor: "color-mix(in srgb, var(--color-lavender) 19%, white)" }}>
                   {s}
                 </li>
               ))}
