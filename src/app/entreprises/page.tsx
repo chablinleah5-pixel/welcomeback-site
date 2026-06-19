@@ -118,7 +118,7 @@ export default function EntreprisesPage() {
               <div
                 key={card.title}
                 className="rounded-3xl p-8"
-                style={{ backgroundColor: `${card.color}30` }}
+              style={{ backgroundColor: `color-mix(in srgb, ${card.color} 19%, white)` }}
               >
                 <p className="font-display text-lg font-semibold leading-snug text-[var(--foreground)]">
                   {card.title}
