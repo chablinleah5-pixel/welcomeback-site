@@ -18,7 +18,7 @@ export default function PageHeader({
   return (
   <section
       className="relative overflow-hidden pt-20 pb-8 sm:pt-28 sm:pb-12"
-      style={{ backgroundColor: "var(--color-lavender)1f" }}
+      style={{ backgroundColor: "color-mix(in srgb, var(--color-lavender) 35%, white)" }}
     >
       <Dots seed={seed} count={9} />
       <Container className="relative">
