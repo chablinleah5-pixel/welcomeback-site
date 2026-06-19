@@ -46,6 +46,8 @@ export default function ForWhom() {
   return (
    <section
       className="py-14 sm:py-20"
+      style={{ backgroundColor: "color-mix(in srgb, var(--color-yellow) 28%, white)" }}
+    >"
       style={{ backgroundColor: "var(--color-yellow)1f" }}
     >
       <Container>
