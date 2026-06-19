@@ -3,6 +3,7 @@ import Container from "@/components/Container";
 import PageHeader from "@/components/PageHeader";
 import CtaBanner from "@/components/CtaBanner";
 import Eyebrow from "@/components/Eyebrow";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "La solution — Welcome Back",
@@ -111,7 +112,10 @@ export default function SolutionPage() {
         seed={4}
       />
 
-      <section className="bg-white py-8 sm:py-10">
+      <section
+        className="py-8 sm:py-10"
+        style={{ backgroundColor: "var(--color-lavender)1f" }}
+      >
         <Container>
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-base font-light leading-relaxed text-[var(--foreground)]/70">
@@ -197,7 +201,10 @@ export default function SolutionPage() {
         </Container>
       </section>
 
-      <section className="bg-white py-14 sm:py-20">
+      <section
+        className="py-14 sm:py-20"
+        style={{ backgroundColor: "var(--color-pink)1f" }}
+      >
         <Container>
           <div className="max-w-2xl">
             <Eyebrow color="violet">Nos interventions</Eyebrow>
@@ -226,6 +233,7 @@ export default function SolutionPage() {
               </div>
             ))}
           </div>
+
         </Container>
       </section>
 
