@@ -45,7 +45,7 @@ export default function SimpleFramework() {
             >
               <span
                 className="inline-flex w-fit items-center rounded-full px-4 py-1.5 text-xs font-medium tracking-wide uppercase text-[var(--color-violet)]"
-                style={{ backgroundColor: `${block.color}55` }}
+               style={{ backgroundColor: `color-mix(in srgb, ${block.color} 33%, white)` }}
               >
                 {block.title}
               </span>
