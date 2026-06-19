@@ -161,10 +161,11 @@ export default function SolutionPage() {
           </div>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {BENEFITS.map((benefit) => (
-              <div key={benefit.role} className="flex flex-col rounded-3xl p-7" style={{ backgroundColor: `${benefit.color}30` }}>
+              <div key={benefit.role} className="flex flex-col rounded-3xl p-7" style={{ backgroundColor: `color-mix(in srgb, ${benefit.color} 19%, white)` }}>
                 <span
                   className="inline-flex w-fit items-center rounded-full px-4 py-1.5 text-xs font-medium tracking-wide uppercase text-[var(--color-violet)]"
-                  style={{ backgroundColor: `${benefit.color}55` }}
+                  style={{ backgroundColor: `color-mix(in srgb, ${benefit.color} 33%, white)` }}
+                >
                 >
                   {benefit.role}
                 </span>
