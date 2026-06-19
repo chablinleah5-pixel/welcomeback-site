@@ -66,21 +66,21 @@ export default function WhyAct() {
           Sources : Issence, Ayming, Malakoff Humanis.
         </p>
 
-        <div className="mt-12 max-w-2xl">
-          <p className="text-base font-medium text-[var(--foreground)]">
+       <div className="mt-12 max-w-2xl">
+          <p className="text-base font-light leading-relaxed text-[var(--foreground)]/70">
             Derrière ces chiffres se cachent des conséquences très concrètes
           </p>
           <ul className="mt-4 list-disc space-y-2 pl-5">
             {STAKES.map((stake) => (
               <li
                 key={stake}
-                className="text-sm font-light leading-relaxed text-[var(--foreground)]/70"
+                className="text-base font-light leading-relaxed text-[var(--foreground)]/70"
               >
                 {stake}
               </li>
             ))}
           </ul>
-          <p className="mt-5 text-sm font-light leading-relaxed text-[var(--foreground)]/70">
+          <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
             Welcome Back aide les organisations à anticiper ces situations
             plutôt qu&apos;à les subir.
           </p>
