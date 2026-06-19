@@ -138,7 +138,7 @@ export default function SolutionPage() {
               <div key={phase.label} className="flex flex-col rounded-3xl border border-black/5 bg-white p-8">
                 <span
                   className="inline-flex w-fit items-center rounded-full px-4 py-1.5 text-xs font-medium tracking-wide uppercase text-[var(--color-violet)]"
-                  style={{ backgroundColor: `${phase.color}55` }}
+                  style={{ backgroundColor: `color-mix(in srgb, ${phase.color} 33%, white)` }}
                 >
                   {phase.label}
                 </span>
