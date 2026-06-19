@@ -32,7 +32,10 @@ const STAKES = [
 
 export default function WhyAct() {
   return (
-    <section className="bg-white py-14 sm:py-20">
+    <section
+      className="py-14 sm:py-20"
+      style={{ backgroundColor: "var(--color-lavender)1f" }}
+    >
       <Container>
         <div className="max-w-2xl">
           <Eyebrow color="pink">Pourquoi agir</Eyebrow>
