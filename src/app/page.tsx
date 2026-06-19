@@ -16,7 +16,11 @@ export default function Home() {
       <ForWhom />
       <WhyWeExist />
 
-      <section id="contact" className="bg-white py-14 sm:py-20">
+      <section
+        id="contact"
+        className="py-14 sm:py-20"
+        style={{ backgroundColor: "var(--color-green)1f" }}
+      >
         <Container>
           <div className="grid gap-12 lg:grid-cols-[1fr_1.3fr] lg:items-start">
             <div>
