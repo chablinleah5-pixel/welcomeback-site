@@ -34,7 +34,7 @@ export default function WhyAct() {
   return (
     <section
       className="py-14 sm:py-20"
-      style={{ backgroundColor: "var(--color-lavender)1f" }}
+     style={{ backgroundColor: "color-mix(in srgb, var(--color-lavender) 35%, white)" }}
     >
       <Container>
         <div className="max-w-2xl">
