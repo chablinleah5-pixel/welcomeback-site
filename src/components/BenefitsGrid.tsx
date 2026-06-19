@@ -22,7 +22,7 @@ export default function BenefitsGrid({ benefits }: { benefits: Benefit[] }) {
               >
                 <div
                   className="flex h-12 w-12 items-center justify-center rounded-2xl"
-                  style={{ backgroundColor: `${benefit.color}45` }}
+                  style={{ backgroundColor: `color-mix(in srgb, ${benefit.color} 27%, white)` }}
                 >
                   <Icon size={22} className="text-[var(--color-violet)]" />
                 </div>
