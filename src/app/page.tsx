@@ -1,7 +1,6 @@
 import Hero from "@/components/Hero";
 import WhyAct from "@/components/WhyAct";
 import SimpleFramework from "@/components/SimpleFramework";
-import WhatMakesUsDifferent from "@/components/WhatMakesUsDifferent";
 import ForWhom from "@/components/ForWhom";
 import WhyWeExist from "@/components/WhyWeExist";
 import Container from "@/components/Container";
@@ -14,7 +13,6 @@ export default function Home() {
       <Hero />
       <WhyAct />
       <SimpleFramework />
-      <WhatMakesUsDifferent />
       <ForWhom />
       <WhyWeExist />
 
@@ -24,11 +22,12 @@ export default function Home() {
             <div>
               <Eyebrow color="lavender">Contact</Eyebrow>
               <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-                Échangeons sur votre situation !
+                Échangeons sur votre contexte.
               </h2>
               <p className="mt-4 max-w-md text-base font-light leading-relaxed text-[var(--foreground)]/70">
-                Remplissez ce court formulaire et nous reviendrons vers vous
-                rapidement.
+                Décrivez-nous votre organisation et les types d&apos;absences
+                longues que vous accompagnez. Nous reviendrons vers vous
+                rapidement pour organiser une démonstration adaptée.
               </p>
             </div>
             <ContactForm />
