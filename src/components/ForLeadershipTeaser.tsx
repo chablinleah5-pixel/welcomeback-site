@@ -50,7 +50,7 @@ export default function ForLeadershipTeaser() {
             <div
               key={card.title}
               className="flex flex-col rounded-3xl p-6"
-              style={{ backgroundColor: `${card.color}30` }}
+              style={{ backgroundColor: `color-mix(in srgb, ${card.color} 19%, white)` }}
             >
               <p className="font-display text-base font-semibold leading-snug text-[var(--foreground)]">
                 {card.title}
