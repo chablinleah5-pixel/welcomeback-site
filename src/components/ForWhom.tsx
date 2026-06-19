@@ -44,7 +44,10 @@ const AUDIENCES = [
 
 export default function ForWhom() {
   return (
-    <section className="bg-white py-14 sm:py-20">
+   <section
+      className="py-14 sm:py-20"
+      style={{ backgroundColor: "var(--color-yellow)1f" }}
+    >
       <Container>
         <div className="max-w-2xl">
           <Eyebrow color="green">Pour qui</Eyebrow>
