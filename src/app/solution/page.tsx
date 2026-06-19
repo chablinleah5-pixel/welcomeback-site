@@ -114,7 +114,7 @@ export default function SolutionPage() {
 
       <section
         className="py-8 sm:py-10"
-        style={{ backgroundColor: "var(--color-lavender)1f" }}
+        style={{ backgroundColor: "color-mix(in srgb, var(--color-lavender) 35%, white)" }}
       >
         <Container>
           <div className="mx-auto max-w-2xl text-center">
