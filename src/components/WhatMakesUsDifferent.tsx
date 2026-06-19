@@ -54,7 +54,7 @@ export default function WhatMakesUsDifferent() {
             >
               <span
                 className="inline-flex w-fit items-center rounded-full px-4 py-1.5 text-xs font-medium tracking-wide uppercase text-[var(--color-violet)]"
-                style={{ backgroundColor: `${card.color}55` }}
+               style={{ backgroundColor: `color-mix(in srgb, ${card.color} 33%, white)` }}
               >
                 {card.role}
               </span>
