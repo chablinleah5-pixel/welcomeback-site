@@ -16,7 +16,10 @@ export default function PageHeader({
   seed?: number;
 }) {
   return (
-  <section className="relative overflow-hidden pt-20 pb-8 sm:pt-28 sm:pb-12">
+  <section
+      className="relative overflow-hidden pt-20 pb-8 sm:pt-28 sm:pb-12"
+      style={{ backgroundColor: "var(--color-lavender)1f" }}
+    >
       <Dots seed={seed} count={9} />
       <Container className="relative">
         <div className="max-w-2xl">
