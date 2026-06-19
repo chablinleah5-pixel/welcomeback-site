@@ -64,7 +64,7 @@ export default function ForWhom() {
               key={audience.title}
               href={audience.href}
               className="group flex flex-col rounded-3xl p-8 transition-transform hover:-translate-y-1"
-              style={{ backgroundColor: `${audience.color}30` }}
+              style={{ backgroundColor: `color-mix(in srgb, ${audience.color} 19%, white)` }}
             >
               <h3 className="font-display text-xl font-semibold text-[var(--foreground)]">
                 {audience.title}
