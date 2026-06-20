@@ -166,7 +166,6 @@ export default function SolutionPage() {
                   className="inline-flex w-fit items-center rounded-full px-4 py-1.5 text-xs font-medium tracking-wide uppercase text-[var(--color-violet)]"
                   style={{ backgroundColor: `color-mix(in srgb, ${benefit.color} 33%, white)` }}
                 >
-                >
                   {benefit.role}
                 </span>
                 <ul className="mt-5 space-y-2">
@@ -193,7 +192,7 @@ export default function SolutionPage() {
             </div>
             <ul className="mt-2 grid grid-cols-2 gap-3">
               {SITUATIONS.map((s) => (
-                <li key={s} className="rounded-2xl px-5 py-4 text-sm font-light text-[var(--foreground)]/70" style={{ backgroundColor: "color-mix(in srgb, var(--color-lavender) 19%, white)" }}>
+                <li key={s} className="rounded-2xl px-5 py-4 text-sm font-light text-[var(--foreground)]/70" style={{ backgroundColor: "color-mix(in srgb, var(--color-lavender) 30%, white)" }}>
                   {s}
                 </li>
               ))}
@@ -204,7 +203,7 @@ export default function SolutionPage() {
 
       <section
         className="py-14 sm:py-20"
-       style={{ backgroundColor: "color-mix(in srgb, var(--color-pink) 30%, white)" }}
+        style={{ backgroundColor: "color-mix(in srgb, var(--color-pink) 30%, white)" }}
       >
         <Container>
           <div className="max-w-2xl">
