@@ -83,6 +83,7 @@ export default function EntreprisesPage() {
       <PageHeader
         eyebrow="Pour les directions"
         eyebrowColor="violet"
+        bgColor="violet"
         title="Transformer un moment à risque en reprise durable."
         subtitle="Les absences longues font partie de la vie de toute entreprise. La façon dont les retours sont accompagnés a un impact direct sur la rétention, la marque employeur et la conformité."
         seed={41}
@@ -118,7 +119,7 @@ export default function EntreprisesPage() {
               <div
                 key={card.title}
                 className="rounded-3xl p-8"
-              style={{ backgroundColor: `color-mix(in srgb, ${card.color} 19%, white)` }}
+                style={{ backgroundColor: `color-mix(in srgb, ${card.color} 19%, white)` }}
               >
                 <p className="font-display text-lg font-semibold leading-snug text-[var(--foreground)]">
                   {card.title}
