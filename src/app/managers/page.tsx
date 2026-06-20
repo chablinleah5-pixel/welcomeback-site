@@ -55,7 +55,7 @@ export default function ManagersPage() {
     <>
       <PageHeader
         eyebrow="Pour les managers"
-        eyebrowColor="pink"
+        eyebrowColor="violet"
         bgColor="pink"
         title="Le bon geste, au bon moment. Sans improvisation."
         subtitle="Accompagner un retour après une absence longue est rarement enseigné. Welcome Back donne aux managers les outils concrets pour le faire avec justesse, dans le respect de chacun.e."
