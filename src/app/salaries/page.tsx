@@ -55,7 +55,7 @@ export default function SalariesPage() {
     <>
       <PageHeader
         eyebrow="Pour les salarié.e.s"
-        eyebrowColor="green"
+        eyebrowColor="violet"
         bgColor="green"
         title="Reprendre le travail avec des repères clairs."
         subtitle="Après un congé maternité, un arrêt maladie ou un congé parental, revenir au travail s'accompagne souvent d'incertitudes. Welcome Back apporte de la clarté sur l'organisation du retour, sans rien imposer."
