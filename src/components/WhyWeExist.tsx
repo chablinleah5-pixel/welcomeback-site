@@ -3,7 +3,7 @@ import Eyebrow from "./Eyebrow";
 
 export default function WhyWeExist() {
   return (
-  <section className="py-14 sm:py-20">
+    <section className="py-14 sm:py-20">
       <Container>
         <div className="mx-auto max-w-2xl">
           <Eyebrow color="lavender">Pourquoi Welcome Back existe</Eyebrow>
