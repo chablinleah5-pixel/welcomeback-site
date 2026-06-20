@@ -6,7 +6,7 @@ import CtaBanner from "@/components/CtaBanner";
 import Container from "@/components/Container";
 
 export const metadata: Metadata = {
-title: "Pour les managers - Welcome Back",
+  title: "Pour les managers — Welcome Back",
   description:
     "Welcome Back aide les managers à savoir quoi faire, disposer de scripts et guides concrets, et accompagner un retour après absence longue sans être intrusif.",
 };
@@ -56,6 +56,7 @@ export default function ManagersPage() {
       <PageHeader
         eyebrow="Pour les managers"
         eyebrowColor="pink"
+        bgColor="pink"
         title="Le bon geste, au bon moment. Sans improvisation."
         subtitle="Accompagner un retour après une absence longue est rarement enseigné. Welcome Back donne aux managers les outils concrets pour le faire avec justesse, dans le respect de chacun.e."
         seed={21}
