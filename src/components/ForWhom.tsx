@@ -44,17 +44,15 @@ const AUDIENCES = [
 
 export default function ForWhom() {
   return (
-   <section
+    <section
       className="py-14 sm:py-20"
       style={{ backgroundColor: "color-mix(in srgb, var(--color-yellow) 28%, white)" }}
-    >"
-      style={{ backgroundColor: "var(--color-yellow)1f" }}
     >
       <Container>
         <div className="max-w-2xl">
           <Eyebrow color="green">Pour qui</Eyebrow>
           <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-           Un dispositif commun, pensé pour chaque rôle.
+            Un cadre commun, pensé pour chaque rôle.
           </h2>
         </div>
 
