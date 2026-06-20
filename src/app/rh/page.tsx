@@ -56,7 +56,8 @@ export default function RHPage() {
       <PageHeader
         eyebrow="Pour les RH"
         eyebrowColor="lavender"
-      title="Reprenez la main sur les retours après une période d'absence longue."
+        bgColor="yellow"
+        title="Reprenez la main sur les retours après une période d'absence longue."
         subtitle="Welcome Back donne aux équipes RH un cadre fiable pour piloter chaque retour : moins de charge mentale, plus de conformité, et une visibilité claire sur l'ensemble des dossiers en cours."
         seed={11}
       />
