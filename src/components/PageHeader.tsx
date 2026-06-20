@@ -2,23 +2,35 @@ import Container from "./Container";
 import Dots from "./Dots";
 import Eyebrow from "./Eyebrow";
 
+const BG_COLORS: Record<string, string> = {
+  violet: "var(--color-violet)",
+  pink: "var(--color-pink)",
+  green: "var(--color-green)",
+  lavender: "var(--color-lavender)",
+  yellow: "var(--color-yellow)",
+};
+
 export default function PageHeader({
   eyebrow,
   eyebrowColor = "violet",
+  bgColor = "lavender",
   title,
   subtitle,
   seed = 2,
 }: {
   eyebrow: string;
   eyebrowColor?: "violet" | "pink" | "green" | "lavender";
+  bgColor?: "violet" | "pink" | "green" | "lavender" | "yellow";
   title: string;
   subtitle: string;
   seed?: number;
 }) {
   return (
-  <section
+    <section
       className="relative overflow-hidden pt-20 pb-8 sm:pt-28 sm:pb-12"
-      style={{ backgroundColor: "color-mix(in srgb, var(--color-lavender) 35%, white)" }}
+      style={{
+        backgroundColor: `color-mix(in srgb, ${BG_COLORS[bgColor]} 35%, white)`,
+      }}
     >
       <Dots seed={seed} count={9} />
       <Container className="relative">
