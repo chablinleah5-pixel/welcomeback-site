@@ -82,7 +82,7 @@ export default function EntreprisesPage() {
     <>
       <PageHeader
         eyebrow="Pour les directions"
-        eyebrowColor="violet"
+        eyebrowColor="lavender"
         bgColor="violet"
         title="Transformer un moment à risque en reprise durable."
         subtitle="Les absences longues font partie de la vie de toute entreprise. La façon dont les retours sont accompagnés a un impact direct sur la rétention, la marque employeur et la conformité."
