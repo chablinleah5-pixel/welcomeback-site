@@ -106,7 +106,7 @@ export default function SolutionPage() {
     <>
       <PageHeader
         eyebrow="La solution"
-        eyebrowColor="lavender"
+        eyebrowColor="violet"
         title="Un cadre simple pour accompagner chaque retour"
         subtitle="Grâce à Welcome Back, chaque personne sait quoi faire, quand le faire et comment le faire."
         seed={4}
