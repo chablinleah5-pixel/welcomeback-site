@@ -44,7 +44,7 @@ const BENEFITS = [
   },
   {
     icon: HeartHandshake,
-   title: "Une reprise accompagnée",
+    title: "Une reprise accompagnée",
     text: "La personne n'est pas seule à gérer son retour : le manager et les RH disposent du même cadre, pour une reprise coordonnée.",
     color: "var(--color-lavender)",
   },
@@ -56,6 +56,7 @@ export default function SalariesPage() {
       <PageHeader
         eyebrow="Pour les salarié.e.s"
         eyebrowColor="green"
+        bgColor="green"
         title="Reprendre le travail avec des repères clairs."
         subtitle="Après un congé maternité, un arrêt maladie ou un congé parental, revenir au travail s'accompagne souvent d'incertitudes. Welcome Back apporte de la clarté sur l'organisation du retour, sans rien imposer."
         seed={31}
