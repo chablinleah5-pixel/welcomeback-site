@@ -4,17 +4,17 @@ import Eyebrow from "./Eyebrow";
 const BLOCKS = [
   {
     title: "Avant le retour",
-    text: "Préparer la reprise et anticiper les actions nécessaires.",
+    text: "Chaque retour se prépare. Welcome Back permet à l'organisation d'aborder cette phase avec sérénité, en s'assurant que les bonnes conditions sont réunies bien avant le Jour J.",
     color: "var(--color-lavender)",
   },
   {
     title: "Pendant les premières semaines",
-    text: "Structurer les échanges et sécuriser la transition.",
+    text: "Les premières semaines sont souvent les plus déterminantes. Welcome Back permet à chaque acteur d'avancer avec clarté — sans improviser, sans surcharger.",
     color: "var(--color-pink)",
   },
   {
     title: "Dans la durée",
-    text: "Suivre les retours en cours et identifier rapidement les besoins d'ajustement.",
+    text: "Un retour réussi se mesure dans le temps. Welcome Back aide les organisations à maintenir une attention adaptée et à agir avant que les difficultés ne s'installent.",
     color: "var(--color-green)",
   },
 ];
@@ -45,7 +45,7 @@ export default function SimpleFramework() {
             >
               <span
                 className="inline-flex w-fit items-center rounded-full px-4 py-1.5 text-xs font-medium tracking-wide uppercase text-[var(--color-violet)]"
-               style={{ backgroundColor: `color-mix(in srgb, ${block.color} 33%, white)` }}
+                style={{ backgroundColor: `color-mix(in srgb, ${block.color} 33%, white)` }}
               >
                 {block.title}
               </span>
@@ -57,8 +57,8 @@ export default function SimpleFramework() {
         </div>
 
         <p className="mt-10 max-w-2xl text-base font-light leading-relaxed text-[var(--foreground)]/70">
-          Chaque acteur.rice reçoit les bonnes informations au bon moment,
-            sans charge administrative supplémentaire.
+          Chaque acteur.rice sait quoi faire et quand le faire — sans que cela
+          ne repose uniquement sur la disponibilité ou la mémoire de chacun.e.
         </p>
       </Container>
     </section>
