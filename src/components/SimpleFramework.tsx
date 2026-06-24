@@ -56,9 +56,10 @@ export default function SimpleFramework() {
           ))}
         </div>
 
-        <p className="mt-10 max-w-2xl text-base font-light leading-relaxed text-[var(--foreground)]/70">
-          Chaque acteur.rice sait quoi faire et quand le faire — sans que cela
-          ne repose uniquement sur la disponibilité ou la mémoire de chacun.e.
+         <p className="mt-10 max-w-2xl text-base font-light leading-relaxed text-[var(--foreground)]/70">
+          Chaque acteur.rice dispose des bons repères au bon moment - sans que
+          la qualité de l&apos;accompagnement ne dépende uniquement de la
+          disponibilité ou de l&apos;initiative de chacun.e.
         </p>
       </Container>
     </section>
