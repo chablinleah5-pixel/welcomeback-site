@@ -44,11 +44,10 @@ export default function Hero() {
             longue ne s&apos;improvise pas.
           </h1>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg font-light leading-relaxed text-[var(--foreground)]/70">
-            Welcome Back structure et automatise l&apos;accompagnement des
-            retours après une absence longue. RH, managers et
-            salarié.e.s reçoivent les bonnes actions, au bon moment,
-            pour sécuriser chaque étape de la reprise.
+         <p className="mx-auto mt-6 max-w-2xl text-lg font-light leading-relaxed text-[var(--foreground)]/70">
+            Welcome Back structure l&apos;accompagnement des retours après une
+            absence longue. RH, managers et salarié.e.s disposent des bons
+            repères au bon moment, pour que chaque reprise se passe bien.
           </p>
 
 
