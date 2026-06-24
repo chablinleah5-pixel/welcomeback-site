@@ -8,44 +8,44 @@ import Container from "@/components/Container";
 export const metadata: Metadata = {
   title: "Pour les managers — Welcome Back",
   description:
-    "Welcome Back aide les managers à accompagner un retour après absence longue avec clarté et sérénité — sans improviser, sans surcharger, sans risquer de maladresse.",
+    "Welcome Back aide les managers à accompagner un retour après absence longue avec clarté et sérénité — sans improviser, sans maladresse.",
 };
 
 const BENEFITS = [
   {
     icon: Compass,
-    title: "Savoir comment agir",
-    text: "Le manager dispose de repères clairs pour aborder chaque étape du retour — avant, pendant et après la reprise — sans avoir à tout construire seul.e à partir de rien.",
+    title: "Des repères clairs pour accompagner",
+    text: "Le manager n'a pas à tout inventer. Welcome Back lui donne un cadre pour aborder chaque moment du retour — avant, pendant et après la reprise — avec assurance.",
     color: "var(--color-pink)",
   },
   {
     icon: BookOpen,
-    title: "Des ressources pour les moments clés",
-    text: "Chaque moment sensible du retour est accompagné de ressources adaptées pour aider le manager à trouver la bonne posture et les bons mots.",
+    title: "Des ressources adaptées aux moments clés",
+    text: "Chaque moment sensible du retour appelle une attention particulière. Welcome Back aide le manager à s'y préparer, sans avoir à construire sa propre approche à partir de rien.",
     color: "var(--color-yellow)",
   },
   {
     icon: MessageCircle,
-    title: "Préparer des échanges adaptés",
-    text: "Le manager est guidé pour aborder les sujets qui comptent : la reprise, l'organisation, le rythme. Sans maladresse, sans excès d'intrusion.",
+    title: "Une aide pour préparer les échanges",
+    text: "Aborder le retour avec la bonne posture n'est pas inné. Welcome Back aide le manager à identifier les sujets qui comptent et à les aborder avec justesse — sans maladresse ni excès.",
     color: "var(--color-lavender)",
   },
   {
     icon: HeartHandshake,
     title: "Accompagner sans être intrusif",
-    text: "Welcome Back aide le manager à trouver le juste équilibre — être présent et attentif, tout en respectant l'espace et le rythme de la personne qui reprend.",
+    text: "Welcome Back aide le manager à trouver le juste équilibre : être présent et attentif, tout en respectant l'espace et le rythme de la personne qui reprend.",
     color: "var(--color-green)",
   },
   {
     icon: CalendarCheck,
     title: "Un accompagnement structuré dans le temps",
-    text: "La reprise s'étale sur plusieurs semaines. Le manager bénéficie d'un cadre qui structure cet accompagnement dans la durée, sans que tout repose sur sa seule mémoire.",
+    text: "La reprise s'étale sur plusieurs semaines. Welcome Back donne au manager un cadre pour maintenir cet accompagnement dans la durée, sans que tout repose sur sa seule initiative.",
     color: "var(--color-pink)",
   },
   {
     icon: CheckSquare,
     title: "Une meilleure préparation du retour",
-    text: "Avant même le premier jour, le manager est accompagné pour s'assurer que les conditions d'une reprise réussie sont en place — pour la personne qui revient comme pour l'équipe.",
+    text: "Avant même le premier jour, Welcome Back aide le manager à s'assurer que les conditions d'une reprise réussie sont en place — pour la personne qui revient comme pour l'équipe.",
     color: "var(--color-yellow)",
   },
 ];
@@ -58,7 +58,7 @@ export default function ManagersPage() {
         eyebrowColor="violet"
         bgColor="pink"
         title="Le bon geste, au bon moment. Sans improvisation."
-        subtitle="Accompagner un retour après une absence longue est rarement enseigné. Welcome Back donne aux managers les repères nécessaires pour le faire avec justesse, dans le respect de chacun.e."
+        subtitle="Accompagner un retour après une absence longue est rarement enseigné. Welcome Back donne aux managers les repères nécessaires pour le faire avec justesse — dans le respect de chacun.e."
         seed={21}
       />
 
