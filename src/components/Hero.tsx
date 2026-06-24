@@ -44,12 +44,13 @@ export default function Hero() {
             longue ne s&apos;improvise pas.
           </h1>
 
-         <p className="mx-auto mt-6 max-w-2xl text-lg font-light leading-relaxed text-[var(--foreground)]/70">
+          <p className="mx-auto mt-6 max-w-2xl text-lg font-light leading-relaxed text-[var(--foreground)]/70">
             Welcome Back structure et automatise l&apos;accompagnement des
             retours après une absence longue. RH, managers et
             salarié.e.s reçoivent les bonnes actions, au bon moment,
             pour sécuriser chaque étape de la reprise.
           </p>
+
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button href="/contact">Nous contacter</Button>
