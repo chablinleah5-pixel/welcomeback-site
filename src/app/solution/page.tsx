@@ -3,31 +3,30 @@ import Container from "@/components/Container";
 import PageHeader from "@/components/PageHeader";
 import CtaBanner from "@/components/CtaBanner";
 import Eyebrow from "@/components/Eyebrow";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "La solution — Welcome Back",
   description:
-    "Découvrez comment Welcome Back structure les retours après une absence longue pour les RH, managers, salarié.e.s et directions.",
+    "Welcome Back structure les retours après une absence longue pour l'ensemble des acteurs : salarié.e, manager, RH et direction.",
 };
 
 const PHASES = [
   {
     label: "Avant le retour",
     title: "Préparer plutôt qu'improviser.",
-    text: "Un retour qui se passe bien se prépare bien avant le Jour J. Welcome Back permet à chaque organisation d'aborder cette phase avec sérénité — en s'assurant que les bonnes conditions sont réunies avant la reprise.",
+    text: "Un retour réussi se prépare en amont. Welcome Back permet à chaque organisation d'aborder cette phase avec sérénité, en s'assurant que les bonnes conditions sont réunies bien avant la reprise.",
     color: "var(--color-lavender)",
   },
   {
     label: "Pendant les premières semaines",
     title: "Accompagner sans surcharger.",
-    text: "Les premières semaines après le retour sont souvent les plus déterminantes. Welcome Back permet à chaque acteur — la personne qui reprend, le manager qui accueille, les RH qui coordonnent — d'avancer avec clarté et confiance.",
+    text: "Les premières semaines sont souvent les plus déterminantes. Welcome Back permet à chaque acteur.rice d'avancer avec clarté et confiance — sans improviser, sans alourdir.",
     color: "var(--color-pink)",
   },
   {
     label: "Dans la durée",
     title: "Suivre et ajuster.",
-    text: "Un retour réussi ne se mesure pas à la première semaine. Welcome Back permet aux organisations de maintenir une attention adaptée dans le temps, et d'agir avant que les difficultés ne s'installent.",
+    text: "Un retour réussi ne se mesure pas à la première semaine. Welcome Back aide les organisations à maintenir une attention adaptée dans le temps, et à agir avant que les difficultés ne s'installent.",
     color: "var(--color-green)",
   },
 ];
@@ -36,17 +35,17 @@ const BENEFITS = [
   {
     role: "RH",
     points: [
-      "Vision consolidée sur l'ensemble des retours en cours",
+      "Visibilité consolidée sur l'ensemble des retours",
       "Pratiques harmonisées à l'échelle de l'organisation",
-      "Temps libéré pour l'essentiel",
+      "Obligations légales sécurisées",
     ],
     color: "var(--color-yellow)",
   },
   {
     role: "Managers",
     points: [
-      "Repères concrets pour accompagner sans improviser",
-      "Cadre adapté à chaque situation",
+      "Repères clairs pour accompagner sans improviser",
+      "Posture adaptée à chaque situation",
       "Moins d'incertitude, plus de sérénité",
     ],
     color: "var(--color-pink)",
@@ -54,16 +53,16 @@ const BENEFITS = [
   {
     role: "Salarié.e.s",
     points: [
-      "Meilleure visibilité sur le déroulé du retour",
-      "Reprise mieux préparée et anticipée",
-      "Accompagnement cohérent tout au long de la transition",
+      "Une reprise mieux préparée et anticipée",
+      "Des repères clairs tout au long de la transition",
+      "Un accompagnement cohérent de bout en bout",
     ],
     color: "var(--color-green)",
   },
   {
     role: "Directions",
     points: [
-      "Meilleure maîtrise des risques liés aux absences longues",
+      "Meilleure maîtrise des risques organisationnels",
       "Fidélisation renforcée des talents",
       "Cohérence des pratiques RH à l'échelle du groupe",
     ],
@@ -83,19 +82,19 @@ const SITUATIONS = [
 const INTERVENTIONS = [
   {
     title: "Cadrage & Diagnostic",
-    text: "Un premier échange pour comprendre votre contexte, identifier vos priorités et poser les bases d'un accompagnement adapté.",
+    text: "Un premier échange pour comprendre votre contexte, identifier vos priorités et poser les bases d'un accompagnement adapté à votre organisation.",
     tag: "90 minutes avec votre équipe RH ou Direction",
     color: "var(--color-lavender)",
   },
   {
     title: "Accompagnement de reprise",
-    text: "Un accompagnement structuré pour sécuriser le retour d'un.e collaborateur.rice et maximiser les chances d'une reprise durable.",
+    text: "Un accompagnement sur mesure pour sécuriser le retour d'un.e collaborateur.rice et maximiser les chances d'une reprise durable.",
     tag: "Sur mesure, selon votre situation",
     color: "var(--color-pink)",
   },
   {
     title: "Atelier managers",
-    text: "Une session concrète pour donner à vos managers les repères et la posture nécessaires face à un retour après absence longue.",
+    text: "Une session concrète pour renforcer la capacité de vos managers à accompagner chaque retour avec justesse et sérénité.",
     tag: "Format individuel ou collectif",
     color: "var(--color-green)",
   },
@@ -108,7 +107,7 @@ export default function SolutionPage() {
         eyebrow="La solution"
         eyebrowColor="violet"
         title="Un cadre simple pour accompagner chaque retour"
-        subtitle="Grâce à Welcome Back, chaque personne sait quoi faire, quand le faire et comment le faire."
+        subtitle="Grâce à Welcome Back, chaque personne dispose des bons repères au bon moment."
         seed={4}
       />
 
@@ -212,9 +211,9 @@ export default function SolutionPage() {
               Comment nous intervenons aujourd&apos;hui
             </h2>
             <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
-              Aujourd&apos;hui, Welcome Back accompagne les organisations qui
-              souhaitent mieux préparer et sécuriser les retours après absence
-              longue.
+              Welcome Back accompagne les organisations qui souhaitent mieux
+              préparer et sécuriser les retours après absence longue — quelle
+              que soit leur taille ou leur secteur.
             </p>
           </div>
 
