@@ -8,26 +8,26 @@ import Container from "@/components/Container";
 export const metadata: Metadata = {
   title: "Pour les managers — Welcome Back",
   description:
-    "Welcome Back aide les managers à accompagner un retour après absence longue avec clarté et sérénité — sans improviser, sans maladresse.",
+    "Welcome Back aide les managers à accompagner un retour après absence longue avec clarté et sérénité - sans improviser, sans maladresse.",
 };
 
 const BENEFITS = [
   {
     icon: Compass,
     title: "Des repères clairs pour accompagner",
-    text: "Le manager n'a pas à tout inventer. Welcome Back lui donne un cadre pour aborder chaque moment du retour — avant, pendant et après la reprise — avec assurance.",
+    text: "Le manager n'a pas à tout inventer. Welcome Back lui donne un cadre pour aborder chaque moment du retour - avant, pendant et après la reprise - avec assurance.",
     color: "var(--color-pink)",
   },
   {
     icon: BookOpen,
-    title: "Des ressources adaptées aux moments clés",
-    text: "Chaque moment sensible du retour appelle une attention particulière. Welcome Back aide le manager à s'y préparer, sans avoir à construire sa propre approche à partir de rien.",
+    title: "Un appui pour les moments clés",
+    text: "Chaque moment sensible du retour appelle une attention particulière. Welcome Back aide le manager à s'y préparer avec la bonne posture, sans avoir à construire sa propre approche à partir de rien.",
     color: "var(--color-yellow)",
   },
   {
     icon: MessageCircle,
     title: "Une aide pour préparer les échanges",
-    text: "Aborder le retour avec la bonne posture n'est pas inné. Welcome Back aide le manager à identifier les sujets qui comptent et à les aborder avec justesse — sans maladresse ni excès.",
+    text: "Aborder le retour avec la bonne posture n'est pas inné. Welcome Back aide le manager à identifier ce qui compte et à l'aborder avec justesse - sans maladresse ni excès.",
     color: "var(--color-lavender)",
   },
   {
@@ -39,13 +39,13 @@ const BENEFITS = [
   {
     icon: CalendarCheck,
     title: "Un accompagnement structuré dans le temps",
-    text: "La reprise s'étale sur plusieurs semaines. Welcome Back donne au manager un cadre pour maintenir cet accompagnement dans la durée, sans que tout repose sur sa seule initiative.",
+    text: "La reprise s'étale sur plusieurs semaines. Welcome Back donne au manager un cadre pour maintenir cet accompagnement dans la durée - sans que tout repose sur sa seule initiative.",
     color: "var(--color-pink)",
   },
   {
     icon: CheckSquare,
     title: "Une meilleure préparation du retour",
-    text: "Avant même le premier jour, Welcome Back aide le manager à s'assurer que les conditions d'une reprise réussie sont en place — pour la personne qui revient comme pour l'équipe.",
+    text: "Avant même le premier jour, Welcome Back aide le manager à s'assurer que les conditions d'une reprise réussie sont en place - pour la personne qui revient comme pour l'équipe.",
     color: "var(--color-yellow)",
   },
 ];
@@ -58,7 +58,7 @@ export default function ManagersPage() {
         eyebrowColor="violet"
         bgColor="pink"
         title="Le bon geste, au bon moment. Sans improvisation."
-        subtitle="Accompagner un retour après une absence longue est rarement enseigné. Welcome Back donne aux managers les repères nécessaires pour le faire avec justesse — dans le respect de chacun.e."
+        subtitle="Accompagner un retour après une absence longue est rarement enseigné. Welcome Back donne aux managers les repères nécessaires pour le faire avec justesse - dans le respect de chacun.e."
         seed={21}
       />
 
