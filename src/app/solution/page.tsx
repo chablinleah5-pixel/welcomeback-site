@@ -15,19 +15,19 @@ const PHASES = [
   {
     label: "Avant le retour",
     title: "Préparer plutôt qu'improviser.",
-    text: "Welcome Back déclenche les bonnes actions au bon moment : informer les parties prenantes, préparer le manager, anticiper les ajustements nécessaires. Rien n'est laissé au hasard.",
+    text: "Un retour qui se passe bien se prépare bien avant le Jour J. Welcome Back permet à chaque organisation d'aborder cette phase avec sérénité — en s'assurant que les bonnes conditions sont réunies avant la reprise.",
     color: "var(--color-lavender)",
   },
   {
     label: "Pendant les premières semaines",
     title: "Accompagner sans surcharger.",
-    text: "Des repères clairs sont fournis à chaque acteur : la personne qui reprend, le manager qui accueille, les RH qui coordonnent. Les échanges sont structurés, les étapes balisées.",
+    text: "Les premières semaines après le retour sont souvent les plus déterminantes. Welcome Back permet à chaque acteur — la personne qui reprend, le manager qui accueille, les RH qui coordonnent — d'avancer avec clarté et confiance.",
     color: "var(--color-pink)",
   },
   {
     label: "Dans la durée",
     title: "Suivre et ajuster.",
-    text: "Le suivi ne s'arrête pas à la première semaine. Welcome Back permet d'identifier rapidement les situations qui nécessitent un ajustement et d'agir avant que les difficultés ne s'installent.",
+    text: "Un retour réussi ne se mesure pas à la première semaine. Welcome Back permet aux organisations de maintenir une attention adaptée dans le temps, et d'agir avant que les difficultés ne s'installent.",
     color: "var(--color-green)",
   },
 ];
@@ -36,9 +36,9 @@ const BENEFITS = [
   {
     role: "RH",
     points: [
-      "Vision claire sur tous les retours en cours",
-      "Harmonisation des pratiques à l'échelle de l'organisation",
-      "Gain de temps sur le suivi et la coordination",
+      "Vision consolidée sur l'ensemble des retours en cours",
+      "Pratiques harmonisées à l'échelle de l'organisation",
+      "Temps libéré pour l'essentiel",
     ],
     color: "var(--color-yellow)",
   },
@@ -46,17 +46,17 @@ const BENEFITS = [
     role: "Managers",
     points: [
       "Repères concrets pour accompagner sans improviser",
-      "Cadre simple, adapté à chaque situation",
-      "Moins d'incertitude sur ce qu'il faut faire",
+      "Cadre adapté à chaque situation",
+      "Moins d'incertitude, plus de sérénité",
     ],
     color: "var(--color-pink)",
   },
   {
     role: "Salarié.e.s",
     points: [
-      "Visibilité sur le déroulé du retour",
-      "Retour mieux préparé et anticipé",
-      "Accompagnement cohérent tout au long de la reprise",
+      "Meilleure visibilité sur le déroulé du retour",
+      "Reprise mieux préparée et anticipée",
+      "Accompagnement cohérent tout au long de la transition",
     ],
     color: "var(--color-green)",
   },
@@ -83,19 +83,19 @@ const SITUATIONS = [
 const INTERVENTIONS = [
   {
     title: "Cadrage & Diagnostic",
-    text: "Un premier échange pour comprendre vos enjeux, identifier les situations de friction et définir vos priorités d'action.",
+    text: "Un premier échange pour comprendre votre contexte, identifier vos priorités et poser les bases d'un accompagnement adapté.",
     tag: "90 minutes avec votre équipe RH ou Direction",
     color: "var(--color-lavender)",
   },
   {
     title: "Accompagnement de reprise",
-    text: "Accompagnement structuré d'une situation de reprise en cours afin de sécuriser le retour d'un.e collaborateur.rice.",
-    tag: "Accompagnement sur mesure",
+    text: "Un accompagnement structuré pour sécuriser le retour d'un.e collaborateur.rice et maximiser les chances d'une reprise durable.",
+    tag: "Sur mesure, selon votre situation",
     color: "var(--color-pink)",
   },
   {
     title: "Atelier managers",
-    text: "Une session pragmatique pour donner aux managers les repères, outils et réflexes nécessaires afin d'accompagner un retour après absence longue.",
+    text: "Une session concrète pour donner à vos managers les repères et la posture nécessaires face à un retour après absence longue.",
     tag: "Format individuel ou collectif",
     color: "var(--color-green)",
   },
@@ -121,8 +121,8 @@ export default function SolutionPage() {
             <p className="text-base font-light leading-relaxed text-[var(--foreground)]/70">
               Welcome Back structure les retours après une absence longue pour
               l&apos;ensemble des acteurs concerné.e.s : salarié.e, manager, RH
-              et direction. Chacun reçoit les bonnes informations, au bon
-              moment, sans charge administrative supplémentaire.
+              et direction. Chacun dispose des bons repères, au bon moment,
+              sans charge administrative supplémentaire.
             </p>
           </div>
         </Container>
@@ -233,7 +233,6 @@ export default function SolutionPage() {
               </div>
             ))}
           </div>
-
         </Container>
       </section>
 
