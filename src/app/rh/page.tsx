@@ -15,13 +15,13 @@ const BENEFITS = [
   {
     icon: Eye,
     title: "Une vision consolidée",
-    text: "Les équipes RH disposent d'une lecture claire des situations de reprise en cours — sans avoir à multiplier les relances ou à recomposer l'information à partir de sources dispersées.",
+    text: "Les équipes RH disposent d'une lecture claire des situations de reprise en cours - sans dispersion, sans effort de reconstitution, sans dépendre des remontées individuelles.",
     color: "var(--color-yellow)",
   },
   {
     icon: Shield,
     title: "Des retours sécurisés",
-    text: "Chaque situation de reprise est accompagnée d'un cadre structuré qui sécurise les étapes essentielles, quels que soient le type d'absence ou le contexte de l'organisation.",
+    text: "Chaque situation de reprise s'appuie sur un cadre structuré qui sécurise les étapes essentielles - quels que soient le type d'absence ou le contexte de l'organisation.",
     color: "var(--color-lavender)",
   },
   {
@@ -33,19 +33,19 @@ const BENEFITS = [
   {
     icon: TrendingUp,
     title: "Un pilotage facilité",
-    text: "Les équipes RH peuvent identifier rapidement les situations qui nécessitent une attention particulière et agir de manière proactive, sans attendre que les difficultés s'installent.",
+    text: "Les équipes RH peuvent identifier rapidement les situations qui nécessitent une attention particulière et agir de manière proactive - avant que les difficultés ne s'installent.",
     color: "var(--color-pink)",
   },
   {
     icon: Award,
     title: "Un suivi fiable",
-    text: "L'accompagnement de chaque situation de reprise est documenté de manière cohérente — ce qui renforce la crédibilité de la fonction RH et facilite les échanges avec les parties prenantes.",
+    text: "L'accompagnement de chaque situation de reprise est tracé de façon fiable - ce qui renforce la crédibilité de la fonction RH et facilite les échanges avec les parties prenantes.",
     color: "var(--color-yellow)",
   },
   {
     icon: Zap,
     title: "Un cadre adapté à chaque absence",
-    text: "Congé maternité, arrêt maladie, congé parental, aidance : chaque type d'absence appelle un accompagnement spécifique. Welcome Back intègre ces nuances sans que les RH aient à tout reconstruire.",
+    text: "Congé maternité, arrêt maladie, congé parental, aidance : chaque type d'absence appelle un accompagnement spécifique. Welcome Back intègre cette diversité sans alourdir le travail des équipes RH.",
     color: "var(--color-lavender)",
   },
 ];
@@ -58,7 +58,7 @@ export default function RHPage() {
         eyebrowColor="lavender"
         bgColor="yellow"
         title="Pilotez les retours après absence longue avec sérénité."
-        subtitle="Welcome Back donne aux équipes RH la structure et la visibilité nécessaires pour accompagner chaque reprise — sans alourdir leur charge de travail ni exposer l'organisation à des risques inutiles."
+        subtitle="Welcome Back donne aux équipes RH la structure et la visibilité nécessaires pour accompagner chaque reprise - sans alourdir leur charge de travail ni exposer l'organisation à des risques inutiles."
         seed={11}
       />
 
@@ -74,7 +74,7 @@ export default function RHPage() {
               Aujourd&apos;hui, les retours après absence longue reposent trop
               souvent sur la disponibilité des équipes RH et la bonne volonté
               des managers. Welcome Back structure ces moments à l&apos;échelle
-              de l&apos;organisation — pour que chaque reprise soit pilotée avec
+              de l&apos;organisation - pour que chaque reprise soit pilotée avec
               la même rigueur, quelle que soit la situation.
             </p>
           </div>
