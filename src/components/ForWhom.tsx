@@ -8,9 +8,9 @@ const AUDIENCES = [
     title: "Pour les salarié.e.s",
     href: "/salaries",
     points: [
-      "Visibilité sur le parcours",
-      "Des repères concrets",
-      "Moins de stress au moment du retour",
+      "Une reprise mieux préparée",
+      "Des repères clairs pour avancer",
+      "Moins d'incertitude au moment du retour",
     ],
     color: "var(--color-green)",
   },
@@ -18,25 +18,29 @@ const AUDIENCES = [
     title: "Pour les managers",
     href: "/managers",
     points: [
-      "Savoir quoi faire",
-      "Scripts et guides prêts à l'emploi",
-      "Accompagner sans être intrusif",
+      "Savoir comment accompagner",
+      "Agir au bon moment, avec la bonne posture",
+      "Sécuriser la reprise sans improviser",
     ],
     color: "var(--color-pink)",
   },
   {
     title: "Pour les RH",
     href: "/rh",
-    points: ["Gain de temps", "Conformité", "Homogénéisation des pratiques"],
+    points: [
+      "Une visibilité consolidée sur les retours",
+      "Des pratiques harmonisées",
+      "Des obligations légales sécurisées",
+    ],
     color: "var(--color-yellow)",
   },
   {
     title: "Pour les directions",
     href: "/entreprises",
     points: [
-      "Réduire les coûts cachés liés aux absences longues",
-      "Sécuriser les pratiques RH",
-      "Renforcer durablement la fidélisation des talents",
+      "Réduire les risques liés aux absences longues",
+      "Sécuriser les pratiques à l'échelle du groupe",
+      "Renforcer la fidélisation des talents",
     ],
     color: "var(--color-lavender)",
   },
@@ -52,7 +56,7 @@ export default function ForWhom() {
         <div className="max-w-2xl">
           <Eyebrow color="green">Pour qui</Eyebrow>
           <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-            Un cadre commun, pensé pour chaque rôle.
+            Un dispositif commun, pensé pour chaque rôle.
           </h2>
         </div>
 
