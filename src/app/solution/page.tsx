@@ -20,7 +20,7 @@ const PHASES = [
   {
     label: "Pendant les premières semaines",
     title: "Accompagner sans surcharger.",
-    text: "Les premières semaines sont souvent les plus déterminantes. Welcome Back permet à chaque acteur.rice d'avancer avec clarté et confiance — sans improviser, sans alourdir.",
+    text: "Les premières semaines sont souvent les plus déterminantes. Welcome Back permet à chaque acteur.rice d'avancer avec clarté et confiance - sans improviser, sans alourdir.",
     color: "var(--color-pink)",
   },
   {
@@ -211,8 +211,8 @@ export default function SolutionPage() {
               Comment nous intervenons aujourd&apos;hui
             </h2>
             <p className="mt-5 text-base font-light leading-relaxed text-[var(--foreground)]/70">
-              Welcome Back accompagne les organisations qui souhaitent mieux
-              préparer et sécuriser les retours après absence longue — quelle
+         Welcome Back accompagne les organisations qui souhaitent mieux
+              préparer et sécuriser les retours après absence longue - quelle
               que soit leur taille ou leur secteur.
             </p>
           </div>
