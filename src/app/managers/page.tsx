@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { ListChecks, MessageSquareText, HeartHandshake, Calendar, BookOpenCheck, Compass } from "lucide-react";
+import { Compass, BookOpen, MessageCircle, HeartHandshake, CalendarCheck, CheckSquare } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 import BenefitsGrid from "@/components/BenefitsGrid";
 import CtaBanner from "@/components/CtaBanner";
@@ -8,44 +8,44 @@ import Container from "@/components/Container";
 export const metadata: Metadata = {
   title: "Pour les managers — Welcome Back",
   description:
-    "Welcome Back aide les managers à savoir quoi faire, disposer de scripts et guides concrets, et accompagner un retour après absence longue sans être intrusif.",
+    "Welcome Back aide les managers à accompagner un retour après absence longue avec clarté et sérénité — sans improviser, sans surcharger, sans risquer de maladresse.",
 };
 
 const BENEFITS = [
   {
     icon: Compass,
-    title: "Savoir quoi faire",
-    text: "Un plan d'action clair, étape par étape, adapté au type d'absence et au contexte de la personne qui revient.",
+    title: "Savoir comment agir",
+    text: "Le manager dispose de repères clairs pour aborder chaque étape du retour — avant, pendant et après la reprise — sans avoir à tout construire seul.e à partir de rien.",
     color: "var(--color-pink)",
   },
   {
-    icon: BookOpenCheck,
-    title: "Des guides prêts à l'emploi",
-    text: "Des guides pratiques expliquent comment préparer le retour, organiser le premier jour et structurer les premières semaines.",
+    icon: BookOpen,
+    title: "Des ressources pour les moments clés",
+    text: "Chaque moment sensible du retour est accompagné de ressources adaptées pour aider le manager à trouver la bonne posture et les bons mots.",
     color: "var(--color-yellow)",
   },
   {
-    icon: MessageSquareText,
-    title: "Des scripts pour les échanges",
-    text: "Des propositions de formulations pour aborder le retour, poser les bonnes questions et fixer un cadre clair, sans maladresse.",
+    icon: MessageCircle,
+    title: "Préparer des échanges adaptés",
+    text: "Le manager est guidé pour aborder les sujets qui comptent : la reprise, l'organisation, le rythme. Sans maladresse, sans excès d'intrusion.",
     color: "var(--color-lavender)",
   },
   {
     icon: HeartHandshake,
     title: "Accompagner sans être intrusif",
-    text: "Le manager dispose de repères pour soutenir la reprise tout en respectant l'espace et le rythme de la personne concernée.",
+    text: "Welcome Back aide le manager à trouver le juste équilibre — être présent et attentif, tout en respectant l'espace et le rythme de la personne qui reprend.",
     color: "var(--color-green)",
   },
   {
-    icon: Calendar,
-    title: "Des rituels planifiés automatiquement",
-    text: "Les points d'échange sont programmés au bon moment, sans que le manager ait à y penser ou à improviser un calendrier.",
+    icon: CalendarCheck,
+    title: "Un accompagnement structuré dans le temps",
+    text: "La reprise s'étale sur plusieurs semaines. Le manager bénéficie d'un cadre qui structure cet accompagnement dans la durée, sans que tout repose sur sa seule mémoire.",
     color: "var(--color-pink)",
   },
   {
-    icon: ListChecks,
-    title: "Des checklists opérationnelles",
-    text: "Accès, outils, dossiers en cours, organisation de l'équipe : tout ce qui doit être prêt avant le retour est listé et suivi.",
+    icon: CheckSquare,
+    title: "Une meilleure préparation du retour",
+    text: "Avant même le premier jour, le manager est accompagné pour s'assurer que les conditions d'une reprise réussie sont en place — pour la personne qui revient comme pour l'équipe.",
     color: "var(--color-yellow)",
   },
 ];
@@ -58,7 +58,7 @@ export default function ManagersPage() {
         eyebrowColor="violet"
         bgColor="pink"
         title="Le bon geste, au bon moment. Sans improvisation."
-        subtitle="Accompagner un retour après une absence longue est rarement enseigné. Welcome Back donne aux managers les outils concrets pour le faire avec justesse, dans le respect de chacun.e."
+        subtitle="Accompagner un retour après une absence longue est rarement enseigné. Welcome Back donne aux managers les repères nécessaires pour le faire avec justesse, dans le respect de chacun.e."
         seed={21}
       />
 
@@ -72,17 +72,18 @@ export default function ManagersPage() {
             </h2>
             <p className="mt-4 text-base font-light leading-relaxed text-[var(--foreground)]/70">
               Welcome Back ne remplace pas le jugement du manager : il lui
-              donne une base solide. Les guides et checklists structurent la
-              démarche, tout en laissant la place à l&apos;adaptation au
-              contexte de chaque personne et de chaque équipe.
+              donne une base solide pour agir avec confiance. Le cadre
+              structure la démarche, tout en laissant la place à
+              l&apos;adaptation au contexte de chaque personne et de chaque
+              équipe.
             </p>
           </div>
         </Container>
       </section>
 
       <CtaBanner
-        title="Donnez à vos managers les bons réflexes pour chaque retour."
-        subtitle="Découvrez en démonstration les guides et rituels proposés par Welcome Back."
+        title="Donnez à vos managers les bons repères pour chaque retour."
+        subtitle="Découvrez comment Welcome Back aide vos managers à accompagner chaque reprise avec plus de sérénité."
         seed={22}
       />
     </>
