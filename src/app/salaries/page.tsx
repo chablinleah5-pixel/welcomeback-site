@@ -15,25 +15,25 @@ const BENEFITS = [
   {
     icon: Eye,
     title: "Une meilleure visibilité sur la reprise",
-    text: "Revenir après une absence longue, c'est souvent avancer dans le flou. Welcome Back permet à la personne qui reprend de mieux comprendre ce qui l'attend, avant même de franchir la porte.",
+    text: "Revenir après une absence longue, c'est souvent avancer dans le flou. Welcome Back permet à la personne qui reprend d'avoir une meilleure visibilité sur les conditions de sa reprise — avant même que celle-ci ne commence.",
     color: "var(--color-green)",
   },
   {
     icon: Compass,
-    title: "Des repères pour reprendre progressivement",
-    text: "Les premières semaines après un retour sont rarement simples. Welcome Back offre un cadre qui aide à reprendre pied, sans avoir à tout redécouvrir seul.e ni à tout gérer en même temps.",
+    title: "Des repères pour retrouver progressivement ses marques",
+    text: "Les premières semaines après un retour sont rarement simples. Welcome Back offre un cadre pour reprendre pied progressivement, sans avoir à tout reconstruire seul.e ni à tout gérer en même temps.",
     color: "var(--color-lavender)",
   },
   {
     icon: Clock,
-    title: "Un accompagnement adapté au rythme de reprise",
-    text: "Chaque retour est différent. Welcome Back permet à chaque personne d'être accompagnée à un rythme qui respecte sa situation, sans pression ni précipitation.",
+    title: "Une reprise à son propre rythme",
+    text: "Chaque retour est différent. Welcome Back permet un accompagnement qui respecte la singularité de chaque situation — sans pression ni précipitation.",
     color: "var(--color-pink)",
   },
   {
     icon: MessageCircle,
-    title: "Des espaces de dialogue pour ajuster la reprise",
-    text: "La personne qui revient n'est pas seule face à sa reprise. Welcome Back crée les conditions pour que des échanges aient lieu — au bon moment, sur les bons sujets.",
+    title: "Des espaces de dialogue",
+    text: "La personne qui revient n'est pas seule. Welcome Back crée les conditions pour que des échanges aient lieu — au bon moment, sur ce qui compte vraiment pour la reprise.",
     color: "var(--color-yellow)",
   },
   {
@@ -45,7 +45,7 @@ const BENEFITS = [
   {
     icon: HeartHandshake,
     title: "Une reprise accompagnée",
-    text: "Welcome Back ne se substitue pas aux relations humaines : il crée les conditions pour que chacun.e — la personne qui revient, son manager, les RH — soit bien positionné.e pour que le retour se passe bien.",
+    text: "Welcome Back ne se substitue pas aux relations humaines : il crée les conditions pour que chacun.e soit bien positionné.e afin que le retour se passe bien — pour la personne qui revient, comme pour son entourage professionnel.",
     color: "var(--color-lavender)",
   },
 ];
@@ -73,9 +73,9 @@ export default function SalariesPage() {
             <p className="mt-4 text-base font-light leading-relaxed text-[var(--foreground)]/70">
               Welcome Back ne s&apos;immisce pas dans la vie personnelle de
               la personne qui reprend. Son rôle est d&apos;aider
-              l&apos;organisation à mieux préparer et structurer le retour —
-              pour que la personne n&apos;ait pas à porter seule la charge de
-              cette transition.
+              l&apos;organisation à créer les meilleures conditions possibles
+              pour que le retour se passe bien — pour que la personne
+              n&apos;ait pas à porter seule la charge de cette transition.
             </p>
           </div>
         </Container>
