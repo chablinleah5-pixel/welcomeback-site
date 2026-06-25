@@ -37,12 +37,10 @@ const BENEFITS = [
     color: "var(--color-pink)",
   },
   {
-    {
     icon: Award,
     title: "Une meilleure maîtrise des situations de reprise",
     text: "Les équipes RH disposent d'une vision plus claire des situations en cours et peuvent accompagner chaque reprise avec davantage de cohérence et de sérénité.",
     color: "var(--color-yellow)",
-  },
   },
   {
     icon: Zap,
