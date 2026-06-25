@@ -47,7 +47,8 @@ export default function Hero() {
          <p className="mx-auto mt-6 max-w-2xl text-lg font-light leading-relaxed text-[var(--foreground)]/70">
             Welcome Back structure l&apos;accompagnement des retours après une
             absence longue. RH, managers et salarié.e.s disposent des bons
-            repères au bon moment, pour que chaque reprise se passe bien.
+            repères au bon moment, pour créer les conditions d&apos;une reprise
+            réussie.
           </p>
 
 
