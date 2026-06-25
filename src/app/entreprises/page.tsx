@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Welcome Back aide les directions à structurer les retours après une absence longue à l'échelle de l'organisation : visibilité, homogénéité, coordination RH-opérationnel et réduction des risques de réabsence.",
 };
 
-const IMPACT_POINTS = [- {point}
+const IMPACT_POINTS = [
   "Continuité de l'activité",
   "Charge des équipes",
   "Engagement des collaborateurs.rices",
@@ -102,7 +102,7 @@ export default function EntreprisesPage() {
                   key={point}
                   className="text-base font-light leading-relaxed text-[var(--foreground)]/70"
                 >
-                  — {point}
+                  - {point}
                 </li>
               ))}
             </ul>
