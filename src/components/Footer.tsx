@@ -7,6 +7,7 @@ const FOOTER_LINKS = [
     title: "Produit",
     links: [
       { href: "/solution", label: "La solution" },
+      { href: "/entreprises", label: "Pour les entreprises" },
       { href: "/rh", label: "Pour les RH" },
       { href: "/managers", label: "Pour les managers" },
       { href: "/salaries", label: "Pour les salarié.e.s" },
@@ -33,7 +34,7 @@ export default function Footer() {
             className="h-10 w-auto"
           />
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-[var(--foreground)]/65">
-            La solution qui structure et automatise l&apos;accompagnement des
+            La solution qui structure l&apos;accompagnement des
             retours après une absence longue : maternité, maladie,
             parentalité, aidance.
           </p>
