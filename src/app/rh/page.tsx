@@ -37,10 +37,12 @@ const BENEFITS = [
     color: "var(--color-pink)",
   },
   {
+    {
     icon: Award,
-    title: "Un suivi fiable",
-    text: "L'accompagnement de chaque situation de reprise est tracé de façon fiable - ce qui renforce la crédibilité de la fonction RH et facilite les échanges avec les parties prenantes.",
+    title: "Une meilleure maîtrise des situations de reprise",
+    text: "Les équipes RH disposent d'une vision plus claire des situations en cours et peuvent accompagner chaque reprise avec davantage de cohérence et de sérénité.",
     color: "var(--color-yellow)",
+  },
   },
   {
     icon: Zap,
