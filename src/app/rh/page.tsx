@@ -38,8 +38,8 @@ const BENEFITS = [
   },
   {
     icon: Award,
-    title: "Une meilleure maîtrise des situations de reprise",
-    text: "Les équipes RH disposent d'une vision plus claire des situations en cours et peuvent accompagner chaque reprise avec davantage de cohérence et de sérénité.",
+    title: "Plus de cohérence dans l'accompagnement",
+    text: "Welcome Back permet aux équipes RH de s'appuyer sur un cadre commun pour accompagner chaque reprise avec le même niveau d'attention et d'exigence, quelle que soit la situation.",
     color: "var(--color-yellow)",
   },
   {
