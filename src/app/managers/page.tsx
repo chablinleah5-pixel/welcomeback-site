@@ -15,7 +15,7 @@ const BENEFITS = [
   {
     icon: Compass,
     title: "Des repères clairs pour accompagner",
-    text: text: "Le manager n'a pas à tout inventer. Welcome Back lui donne un cadre pour accompagner la reprise avec assurance.",
+    text: "Le manager n'a pas à tout inventer. Welcome Back lui donne un cadre pour accompagner la reprise avec assurance.",
     color: "var(--color-pink)",
   },
   {
