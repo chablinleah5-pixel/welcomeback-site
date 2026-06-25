@@ -44,8 +44,8 @@ const BENEFITS = [
   },
   {
     icon: CheckSquare,
-    title: "Une meilleure préparation du retour",
-    text: "Avant même le premier jour, Welcome Back aide le manager à s'assurer que les conditions d'une reprise réussie sont en place - pour la personne qui revient comme pour l'équipe.",
+    title: "Une reprise mieux préparée",
+    text: "Welcome Back aide le manager à aborder le retour avec davantage d'anticipation et de sérénité, pour la personne concernée comme pour l'équipe.",
     color: "var(--color-yellow)",
   },
 ];
