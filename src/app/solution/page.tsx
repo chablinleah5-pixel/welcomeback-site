@@ -37,7 +37,7 @@ const BENEFITS = [
     points: [
       "Visibilité consolidée sur l'ensemble des retours",
       "Pratiques harmonisées à l'échelle de l'organisation",
-      "Obligations légales sécurisées",
+      "Étapes essentielles sécurisées",
     ],
     color: "var(--color-yellow)",
   },
