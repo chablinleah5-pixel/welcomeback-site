@@ -18,6 +18,7 @@ const FOOTER_LINKS = [
     links: [
       { href: "/contact", label: "Nous contacter" },
       { href: "/mentions-legales", label: "Mentions légales" },
+      { href: "/politique-de-confidentialite", label: "Politique de confidentialité" },
     ],
   },
 ];
