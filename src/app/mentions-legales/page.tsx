@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Container from "@/components/Container";
+import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
@@ -98,8 +99,11 @@ export default function MentionsLegalesPage() {
                   Les informations recueillies par le formulaire de contact
                   (nom, entreprise, fonction, adresse e-mail, message) sont
                   utilisées uniquement pour répondre aux demandes. Pour en
-                  savoir plus et exercer vos droits, consultez notre
-                  politique de confidentialité.
+                  savoir plus et exercer vos droits, consultez notre{" "}
+<Link href="/politique-de-confidentialite" className={linkClass}>
+  politique de confidentialité
+</Link>
+.
                 </p>
               </div>
             </div>
