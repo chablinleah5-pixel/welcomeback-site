@@ -3,8 +3,6 @@
 import Link from "next/link";
 import { FormEvent, useState } from "react";
 
-import { FormEvent, useState } from "react";
-
 const WEB3FORMS_ACCESS_KEY = "3617c832-06ec-4dc1-99b5-966d86076895";
 
 export default function ContactForm() {
@@ -117,6 +115,7 @@ export default function ContactForm() {
           de nous écrire directement par email.
         </p>
       )}
+
       <p className="mt-6 text-xs font-light leading-relaxed text-[var(--foreground)]/55">
         Vos données sont utilisées uniquement pour répondre à votre demande.{" "}
         <Link
@@ -127,10 +126,11 @@ export default function ContactForm() {
         </Link>
         .
       </p>
+
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="mt-8 inline-flex w-full items-center justify-center rounded-full bg-[var(--color-violet)] px-7 py-3.5 text-sm font-medium text-white transition-transform hover:scale-[1.01] disabled:opacity-60 sm:w-auto"
+        className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[var(--color-violet)] px-7 py-3.5 text-sm font-medium text-white transition-transform hover:scale-[1.01] disabled:opacity-60 sm:w-auto"
       >
         {status === "submitting" ? "Envoi en cours..." : "Envoyer ma demande"}
       </button>
