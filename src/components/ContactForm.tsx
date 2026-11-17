@@ -117,7 +117,16 @@ export default function ContactForm() {
           de nous écrire directement par email.
         </p>
       )}
-
+      <p className="mt-6 text-xs font-light leading-relaxed text-[var(--foreground)]/55">
+        Vos données sont utilisées uniquement pour répondre à votre demande.{" "}
+        <Link
+          href="/politique-de-confidentialite"
+          className="text-[var(--color-violet)] underline underline-offset-2 hover:opacity-80"
+        >
+          En savoir plus
+        </Link>
+        .
+      </p>
       <button
         type="submit"
         disabled={status === "submitting"}
